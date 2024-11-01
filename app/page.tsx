@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import Image from 'next/image'
 import Link from 'next/link'
 import cardsData from '@/data/cards.json'
@@ -17,9 +17,9 @@ export default function Home() {
                 </CardContent>
               </DialogTrigger>
               <DialogContent className="max-w-4xl h-[80vh]">
-                <DialogHeader>
-                  <DialogTitle>{card.title}</DialogTitle>
-                </DialogHeader>
+                {/* <DialogHeader className="p-0">
+                  <DialogTitle className="p-0">{card.title}</DialogTitle>
+                </DialogHeader> */}
                 <iframe src={card.modalContent} className="w-full h-full" />
               </DialogContent>
             </Dialog>

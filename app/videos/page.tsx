@@ -17,9 +17,9 @@ const organizations = [
 
 export default function VideosPage() {
   return (
-    <div>
+    <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Videos</h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 md:w-[70%] mx-auto gap-4">
         {organizations.map((org) => (
           <Card key={org.id} className="group cursor-pointer transition-colors hover:bg-red-100">
             <Link href={`/videos/${org.id}`}>

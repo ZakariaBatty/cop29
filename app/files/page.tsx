@@ -66,7 +66,7 @@ export default function FilesPage() {
                   </h3>
                   <Button
                     className="w-full bg-[#11316D] hover:bg-[#1a4494]"
-                    onClick={() => window.open(doc.pdfUrl, '_blank')}
+                    onClick={() => window.open("https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Program-Side-Event-Cop29.pdf", '_blank')}
                   >
                     <Download className="mr-2 h-4 w-4" />
                     Télécharger
