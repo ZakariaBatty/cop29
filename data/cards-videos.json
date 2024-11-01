@@ -1,0 +1,31 @@
+[
+   {
+      "id": 1,
+      "name": "ADA",
+      "logo": "/images/logos/ada.png",
+      "videos": [
+         "https://www.youtube.com/embed/T8ymf2efp08?si=pHisG1zsK0bEGBe7",
+         "https://www.youtube.com/embed/5kavGugTUIc?si=QLkMYxVRgJ1kbnNQ",
+         "https://www.youtube.com/embed/VGRNAmik6V0?si=g3U5WzXOPkrl1fi2"
+      ]
+   },
+   {
+      "id": 2,
+      "name": "EAU",
+      "logo": "/images/logos/eau.png",
+      "videos": [
+         "https://www.youtube.com/embed/ojHKoe-1YpE?si=A6FBzBBclQVQiNoz"
+      ]
+   },
+   {
+      "id": 3,
+      "name": "IRESEN",
+      "logo": "/images/logos/iresen.png",
+      "videos": [
+         "https://www.youtube.com/embed/XRzaH8fwzr0?si=9F45-mI-BEsd9h-I",
+         "https://www.youtube.com/embed/6HySruXvvcA?si=r_eGXing13nC2pZp",
+         "https://www.youtube.com/embed/MRHlOhBjfmo?si=hHcPsTchg4xR6yMo",
+         "https://www.youtube.com/embed/O9BWNS7pMfM?si=tatyqWCLxFvZbH9o"
+      ]
+   }
+]

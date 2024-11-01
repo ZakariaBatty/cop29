@@ -22,7 +22,7 @@ export default function RootLayout({
           <header className="w-full mx-auto py-4 bg-[#56b2e1]">
             <div className="flex flex-col  justify-center items-center ">
               <a href="/">
-                <Image src="/images/MTEDD2.png" alt="MTEDD Logo" className=" mb-2" width={650}
+                <Image src="/images/MTEDD2.png" alt="MTEDD Logo" className=" mb-2" width={750}
                   height={400} />
               </a>
               <a href="https://www.cop28.com/" target="_blank" rel="noopener noreferrer">

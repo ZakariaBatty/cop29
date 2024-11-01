@@ -7,32 +7,32 @@
          {
             "id": 1,
             "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/pdf/Zakaria-batty.pdf"
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/La_mise_en_oeuvre_de_la_Strategie_Nationale_de_Developpement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
          },
          {
             "id": 2,
             "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Pacte_de_lExemplarite_de_lAdministration_Version_Francaise.pdf"
          },
          {
             "id": 3,
             "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/QUALITE_EAU_ET_SABLE_2022.pdf"
          },
          {
             "id": 4,
             "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Rapport_Strategie_Nationale_DD.pdf"
          },
          {
             "id": 5,
             "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/REEM4-VERSION_INTEGRALE.pdf"
          },
          {
             "id": 6,
             "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/SBC_2050.pdf"
          }
       ]
    },
@@ -43,292 +43,122 @@
       "documents": [
          {
             "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+            "title": "CLIMATE FINANCE FUNDING OPPORTUNITIES IN MOROCCO",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-Plaquette-8-pages-GCF.-INSTIT-ANG.pdf"
          },
          {
             "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+            "title": "INVESTOR’S GUIDE IN THE AGRICULTURAL SECTOR IN MOROCCO",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-INVESTORS-GUIDE.pdf"
          },
          {
             "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+            "title": "PLAQUETTE INSTITUTIONNELLE 2020",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-Plaquette-institutionnelle-ANG-2020.pdf"
          },
          {
             "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
-         },
-         {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+            "title": "PROCESS FOR SUBMITTING ADAPTATION AND MITIGATION PROJECTS TO GREEN CLIMATE FUND FINANCING",
+            "pdfUrl": "/https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-VANG-New-livret.pdf"
          }
       ]
    },
-   "HABITAT": {
+   "EAU": {
       "id": 3,
-      "name": "HABITAT",
+      "name": "EAU",
       "logo": "/images/logos/habitat.png",
       "documents": [
          {
             "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+            "title": "Dépliant Eau un Maroc  Faits et Chiffres Ar",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/الماء-في-المغرب-معطيات-وأرقام.pdf"
          },
          {
             "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+            "title": "Dépliant Eau un Maroc  Faits et Chiffres Fr",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Depliant-Eau-un-Maroc-Faits-et-Chiffres.pdf"
          },
          {
             "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+            "title": "Dépliant Eau un Maroc  Faits et Chiffres Ang",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Water-in-Morocco-Facts-and-Figures.pdf"
          },
          {
             "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+            "title": "Brochure Eeau pour un Maroc prospère et résilient",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Brochure-22-pages-Eeau-pour-un-Maroc-prospere-et-resilient.pdf"
          },
          {
             "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
-         }
-      ]
-   },
-   "IRESEN": {
-      "id": 4,
-      "name": "IRESEN",
-      "logo": "/images/logos/iresen.png",
-      "documents": [
-         {
-            "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
-         },
-         {
-            "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
-         },
-         {
-            "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
-         },
-         {
-            "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
-         },
-         {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
-         }
-      ]
-   },
-   "OCP": {
-      "id": 5,
-      "name": "OCP",
-      "logo": "/images/logos/ocp.png",
-      "documents": [
-         {
-            "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
-         },
-         {
-            "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
-         },
-         {
-            "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
-         },
-         {
-            "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
-         },
-         {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+            "title": "Brochure Water For a prosperous and resilient Morocco",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Brochure-22-p-Water-For-a-prosperous-and-resilient-Morocco-1.pdf"
          }
       ]
    },
    "MASEN": {
-      "id": 6,
+      "id": 4,
       "name": "MASEN",
       "logo": "/images/logos/masen.png",
       "documents": [
          {
             "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+            "title": "Plaquette OFFRE MAROC HYDROGÈNE VERT",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/24-00548-Plaquette-GH218x26VF.pdf"
          },
          {
             "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+            "title": "GREEN HYDROGEN MOROCCAN OFFER",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/24-00548-Plaquette-GH218x26VUK.pdf"
          },
          {
             "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+            "title": "Fiche Noor Boujdour I",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Boujdour-I.pdf"
          },
          {
             "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+            "title": "Fiche Noor Laayoune I",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Laayoune-I.pdf"
          },
          {
             "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+            "title": "Fiche Noor Midelt I",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Midelt-I.pdf"
          },
          {
             "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
-         }
-      ]
-   },
-   "ONEE": {
-      "id": 7,
-      "name": "ONEE",
-      "logo": "/images/logos/onee.png",
-      "documents": [
-         {
-            "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+            "title": "Fiche Noor Ouarzazate I",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-I.pdf"
          },
          {
-            "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+            "id": 7,
+            "title": "Fiche Noor Ouarzazate II",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-II.pdf"
          },
          {
-            "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+            "id": 8,
+            "title": "Fiche Noor Ouarzazate III",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-III.pdf"
          },
          {
-            "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+            "id": 9,
+            "title": "Fiche Noor Ouarzazate IV",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-IV.pdf"
          },
          {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+            "id": 10,
+            "title": "Fiche Noor Laayoune I",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Laayoune-I.pdf"
          },
          {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
-         }
-      ]
-   },
-   "AMEE": {
-      "id": 8,
-      "name": "AMEE",
-      "logo": "/images/logos/amee.png",
-      "documents": [
-         {
-            "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+            "id": 11,
+            "title": "Fiche Parc Eolien Koudia Al Baida",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Parc-Eolien-Koudia-Al-Baida.pdf"
          },
          {
-            "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
-         },
-         {
-            "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
-         },
-         {
-            "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
-         },
-         {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
-         }
-      ]
-   },
-   "CDG": {
-      "id": 9,
-      "name": "CDG",
-      "logo": "/images/logos/cdg.svg",
-      "documents": [
-         {
-            "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
-         },
-         {
-            "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
-         },
-         {
-            "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
-         },
-         {
-            "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
-         },
-         {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+            "id": 12,
+            "title": "Fiche Programme Eolien Integre.pdf",
+            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Programme-Eolien-Integre.pdf"
          }
       ]
    }

@@ -17,18 +17,18 @@ export default function NavigationButtons() {
       <Button
         variant="outline"
         size="icon"
-        className="fixed top-4 right-4 z-50"
+        className="fixed top-[40%] right-4 z-50 bg-black  "
         onClick={() => router.back()}
       >
-        <ArrowLeft className="h-4 w-4" />
+        <ArrowLeft className="h-4 w-4 text-white hover:text-black" />
       </Button>
       <Button
         variant="outline"
         size="icon"
-        className="fixed bottom-4 right-4 z-50"
+        className="fixed bottom-[47%] right-4 z-50 bg-black "
         onClick={() => router.push('/')}
       >
-        <Home className="h-4 w-4" />
+        <Home className="h-4 w-4 text-white hover:text-black" />
       </Button>
     </>
   )
