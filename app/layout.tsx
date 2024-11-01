@@ -6,8 +6,8 @@ import Image from 'next/image'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'MTEDD',
-  description: 'Ministry of Energy Transition and Sustainable Development',
+  title: 'cop29',
+  description: 'Cop29 Baku Azerbaijan ',
 }
 
 export default function RootLayout({
