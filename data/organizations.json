@@ -1,0 +1,335 @@
+{
+   "MTEDD": {
+      "id": 1,
+      "name": "MTEDD",
+      "logo": "/images/logos/mtedd1.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "ADA": {
+      "id": 2,
+      "name": "ADA",
+      "logo": "/images/logos/ada.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "HABITAT": {
+      "id": 3,
+      "name": "HABITAT",
+      "logo": "/images/logos/habitat.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "IRESEN": {
+      "id": 4,
+      "name": "IRESEN",
+      "logo": "/images/logos/iresen.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "OCP": {
+      "id": 5,
+      "name": "OCP",
+      "logo": "/images/logos/ocp.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "MASEN": {
+      "id": 6,
+      "name": "MASEN",
+      "logo": "/images/logos/masen.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "ONEE": {
+      "id": 7,
+      "name": "ONEE",
+      "logo": "/images/logos/onee.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "AMEE": {
+      "id": 8,
+      "name": "AMEE",
+      "logo": "/images/logos/amee.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   },
+   "CDG": {
+      "id": 9,
+      "name": "CDG",
+      "logo": "/images/logos/cdg.svg",
+      "documents": [
+         {
+            "id": 1,
+            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
+            "pdfUrl": "/files/MTEDD/La_mise_en_œuvre_de_la_Stratégie_Nationale_de_Développement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+         },
+         {
+            "id": 2,
+            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
+            "pdfUrl": "/files/MTEDD/Pacte_de_lExemplarité_de_lAdministration_Version_Française.pdf"
+         },
+         {
+            "id": 3,
+            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
+            "pdfUrl": "/files/MTEDD/QUALITE_EAU_ET_SABLE_2022.pdf"
+         },
+         {
+            "id": 4,
+            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
+            "pdfUrl": "/files/MTEDD/Rapport_Strategie_Nationale_DD.pdf"
+         },
+         {
+            "id": 5,
+            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
+            "pdfUrl": "/files/MTEDD/REEM4-VERSION_INTEGRALE.pdf"
+         },
+         {
+            "id": 6,
+            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
+            "pdfUrl": "/files/MTEDD/SBC_2050.pdf"
+         }
+      ]
+   }
+}

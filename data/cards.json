@@ -1,0 +1,33 @@
+[
+   {
+      "id": 1,
+      "title": "Side Events",
+      "image": "/images/444.png",
+      "link": "#",
+      "modalContent": "https://www.mtedd.gov.ma/cop28/files/program.pdf"
+   },
+   {
+      "id": 2,
+      "title": "Documents",
+      "image": "/images/2222.png",
+      "link": "/files"
+   },
+   {
+      "id": 3,
+      "title": "Videos",
+      "image": "/images/333.png",
+      "link": "/videos"
+   },
+   {
+      "id": 4,
+      "title": "Social Media",
+      "image": "/images/555.png",
+      "link": "/rs"
+   },
+   {
+      "id": 5,
+      "title": "Noussahimo",
+      "image": "/images/666.png",
+      "link": "https://noussahimo.gov.ma/en"
+   }
+]
