@@ -22,7 +22,14 @@
       "name": "IRESEN",
       "logo": "/images/logos/iresen.png",
       "videos": [
-         "https://www.youtube.com/embed/XRzaH8fwzr0?si=9F45-mI-BEsd9h-I",
+         "https://www.youtube.com/embed/XRzaH8fwzr0?si=9F45-mI-BEsd9h-I"
+      ]
+   },
+   {
+      "id": 4,
+      "name": "MASEN",
+      "logo": "/images/logos/masen.png",
+      "videos": [
          "https://www.youtube.com/embed/6HySruXvvcA?si=r_eGXing13nC2pZp",
          "https://www.youtube.com/embed/MRHlOhBjfmo?si=hHcPsTchg4xR6yMo",
          "https://www.youtube.com/embed/O9BWNS7pMfM?si=tatyqWCLxFvZbH9o"

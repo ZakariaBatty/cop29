@@ -20,7 +20,7 @@ export default function FilesPage() {
       <h1 className="text-3xl font-bold mb-8 text-center">Documents</h1>
 
       {/* Organizations Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 md:w-[70%] mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6  mx-auto">
         {Object.entries(typedOrganizationsData).map(([key, org]) => (
           <Card
             key={org.id}
@@ -28,7 +28,7 @@ export default function FilesPage() {
             onClick={() => setSelectedOrg(key)}
           >
             <CardContent className="p-6 flex flex-col items-center justify-center">
-              <div className="relative w-48 h-32">
+              <div className="relative ">
                 <Image
                   src={org.logo}
                   alt={org.name}

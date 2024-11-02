@@ -5,14 +5,16 @@ import cardsVidoes from '@/data/cards-videos.json'
 
 export default function VideosPage() {
   return (
-    <div className="container mx-auto p-4">
+    <div className="mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Videos</h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 md:w-[70%] mx-auto gap-4">
+      {/* vidoes Grid */}
+
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6  mx-auto">
         {cardsVidoes.map((org) => (
           <Card key={org.id} className="group cursor-pointer transition-colors hover:bg-[#a4cce0]">
             <Link href={`/videos/${org.id}`}>
               <CardContent className="p-6 flex flex-col items-center justify-center">
-                <div className="relative w-48 h-32">
+                <div className="relative ">
                   <Image
                     src={org.logo}
                     alt={org.name}
