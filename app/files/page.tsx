@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
 import organizationsData from '@/data/organizations.json'
 import { OrganizationsData } from '@/types/organizations'
+import { ScrollArea } from '@/components/ui/scroll-area'
 
 export default function FilesPage() {
   const [selectedOrg, setSelectedOrg] = useState<string | null>(null)
@@ -51,30 +52,36 @@ export default function FilesPage() {
 
       {/* Documents Dialog */}
       <Dialog open={!!selectedOrg} onOpenChange={() => setSelectedOrg(null)}>
-        <DialogContent className="max-w-4xl">
-          <DialogHeader>
-            <DialogTitle>
+        <DialogContent className="w-[90vw] max-w-5xl h-[90%]  flex flex-col p-0 gap-0">
+          <DialogHeader className="px-6 py-4 flex-shrink-0">
+            <DialogTitle className="text-xl font-semibold">
               {selectedOrg && typedOrganizationsData[selectedOrg].name} Documents
             </DialogTitle>
           </DialogHeader>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
-            {selectedOrg && typedOrganizationsData[selectedOrg].documents.map((doc) => (
-              <Card key={doc.id} className="border-2 border-purple-200 rounded-lg overflow-hidden">
-                <CardContent className="p-6">
-                  <h3 className="text-sm font-medium mb-4 min-h-[60px]">
-                    {doc.title}
-                  </h3>
-                  <Button
-                    className="w-full bg-[#11316D] hover:bg-[#1a4494]"
-                    onClick={() => window.open("https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Program-Side-Event-Cop29.pdf", '_blank')}
+          <ScrollArea className="flex-grow px-6 pb-6 h-80 rounded-md border">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {selectedOrg &&
+                typedOrganizationsData[selectedOrg].documents.map((doc) => (
+                  <Card
+                    key={doc.id}
+                    className="border border-muted transition-colors hover:border-muted-foreground/25"
                   >
-                    <Download className="mr-2 h-4 w-4" />
-                    Télécharger
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+                    <CardContent className="p-4 space-y-4">
+                      <h3 className="font-medium leading-tight min-h-[2.5rem] line-clamp-2">
+                        {doc.title}
+                      </h3>
+                      <Button
+                        className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
+                        onClick={() => window.open(doc.pdfUrl, '_blank')}
+                      >
+                        <Download className="mr-2 h-4 w-4" />
+                        Télécharger
+                      </Button>
+                    </CardContent>
+                  </Card>
+                ))}
+            </div>
+          </ScrollArea>
         </DialogContent>
       </Dialog>
     </div>

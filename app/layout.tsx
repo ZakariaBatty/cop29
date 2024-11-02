@@ -31,11 +31,17 @@ export default function RootLayout({
               </a>
             </div>
           </header>
-          <main className="container mx-auto py-8">
+          <main className="container mx-auto py-2">
             {children}
           </main>
           <NavigationButtons />
         </div>
+        <footer className="w-full mx-auto bg-[#56b2e1]">
+          <div className="flex flex-col py-4 justify-center items-center ">
+            <Image src="/images/Sponsor-all-2.png" alt="MTEDD Logo" className="" width={750}
+              height={400} />
+          </div>
+        </footer>
       </body>
     </html>
   )
