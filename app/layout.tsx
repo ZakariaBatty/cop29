@@ -25,7 +25,7 @@ export default function RootLayout({
                 <Image src="/images/MTEDD2.png" alt="MTEDD Logo" className=" mb-2" width={750}
                   height={400} />
               </a>
-              <a href="https://www.cop28.com/" target="_blank" rel="noopener noreferrer">
+              <a href="/" rel="noopener noreferrer">
                 <Image src="/images/cop272.svg" alt="COP28 Logo" className="h-[100px]" width={500}
                   height={300} />
               </a>
