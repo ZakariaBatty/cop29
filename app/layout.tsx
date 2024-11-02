@@ -20,9 +20,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="min-h-screen w-full">
           <header className="w-full mx-auto bg-[#56b2e1]">
-            <div className="flex flex-col py-6  justify-center items-center ">
+            <div className="flex flex-col pr-6 pl-6  justify-center items-center ">
               <a href="/">
-                <Image src="/images/MTEDD2.png" alt="MTEDD Logo" className=" mb-2" width={650}
+                <Image src="/images/MTEDD2.png" alt="MTEDD Logo" className="py-4 mb-2" width={650}
                   height={400} />
               </a>
               <a href="/" rel="noopener noreferrer">
