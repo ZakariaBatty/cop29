@@ -9,7 +9,7 @@ export default function VideosPage() {
       <h1 className="text-3xl font-bold mb-6 text-center">Videos</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 md:w-[70%] mx-auto gap-4">
         {cardsVidoes.map((org) => (
-          <Card key={org.id} className="group cursor-pointer transition-colors hover:bg-red-100">
+          <Card key={org.id} className="group cursor-pointer transition-colors hover:bg-[#a4cce0]">
             <Link href={`/videos/${org.id}`}>
               <CardContent className="p-6 flex flex-col items-center justify-center">
                 <div className="relative w-48 h-32">

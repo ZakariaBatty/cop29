@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-screen w-full">
-          <header className="w-full mx-auto py-4 bg-[#56b2e1]">
+          <header className="w-full mx-auto py-6 bg-[#56b2e1]">
             <div className="flex flex-col  justify-center items-center ">
               <a href="/">
                 <Image src="/images/MTEDD2.png" alt="MTEDD Logo" className=" mb-2" width={750}
@@ -36,7 +36,7 @@ export default function RootLayout({
           </main>
           <NavigationButtons />
         </div>
-        <footer className="w-full mx-auto bg-[#56b2e1]">
+        <footer className="w-full mx-auto">
           <div className="flex flex-col py-4 justify-center items-center ">
             <Image src="/images/Sponsor-all-2.png" alt="MTEDD Logo" className="" width={750}
               height={400} />

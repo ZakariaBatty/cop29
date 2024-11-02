@@ -24,7 +24,7 @@ export default function FilesPage() {
         {Object.entries(typedOrganizationsData).map(([key, org]) => (
           <Card
             key={org.id}
-            className="group cursor-pointer transition-colors hover:bg-red-100"
+            className="group cursor-pointer transition-colors hover:bg-[#a4cce0]"
             onClick={() => setSelectedOrg(key)}
           >
             <CardContent className="p-6 flex flex-col items-center justify-center">
