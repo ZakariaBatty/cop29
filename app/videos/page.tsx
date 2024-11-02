@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Image from 'next/image'
 import Link from 'next/link'
-import cardsVidoes from '@/data/cards-videos.json'
+import cardsVidoes from '@/public/cards-videos.json'
 
 export default function VideosPage() {
   return (

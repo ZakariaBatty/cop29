@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import Image from 'next/image';
 import Link from 'next/link';
-import cardsData from '@/data/cards.json';
+import cardsData from '@/public/cards.json';
 
 export default function Home() {
   return (

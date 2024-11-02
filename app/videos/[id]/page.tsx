@@ -1,13 +1,19 @@
-import cardsVidoes from '@/data/cards-videos.json';
+import cardsVideos from '@/public/cards-videos.json';
 import { Card } from "@/components/ui/card";
 
 interface Props {
-  params: { id: number }
+  params: { id: string }
+}
+
+export function generateStaticParams() {
+  return cardsVideos.map((video) => ({
+    id: video.id.toString(),
+  }))
 }
 
 export default function VideoDetailPage({ params }: Props) {
   // Find the video by the provided ID
-  const org = cardsVidoes.find((video) => video.id === Number(params.id));
+  const org = cardsVideos.find((video) => video.id === Number(params.id));
 
   if (!org) {
     return <p className="text-3xl font-bold mb-6 text-center">Video not found.</p>;

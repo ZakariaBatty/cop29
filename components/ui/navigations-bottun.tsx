@@ -3,13 +3,23 @@
 import { usePathname, useRouter } from 'next/navigation'
 import { ArrowLeft, Home } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 export default function NavigationButtons() {
   const pathname = usePathname()
   const router = useRouter()
 
   if (pathname === '/') {
-    return null
+    return (
+      <>
+        <footer className="w-full mx-auto">
+          <div className="flex flex-col py-4 justify-center items-center ">
+            <Image src="/images/Sponsor-all-2.png" alt="MTEDD Logo" className="" width={750}
+              height={400} />
+          </div>
+        </footer>
+      </>
+    )
   }
 
   return (
