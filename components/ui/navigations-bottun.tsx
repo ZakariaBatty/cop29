@@ -10,6 +10,7 @@ export default function NavigationButtons() {
   const router = useRouter()
 
   if (pathname === '/') {
+    return null
     return (
       <>
         <footer className="w-full mx-auto">
