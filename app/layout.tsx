@@ -1,4 +1,4 @@
-import NavigationButtons from '@/components/ui/navigations-bottun'
+import NavigationButtons from '@/components/navigations-bottun'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
