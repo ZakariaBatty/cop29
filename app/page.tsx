@@ -2,11 +2,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import Image from 'next/image';
 import Link from 'next/link';
-import cardsData from '@/data/cards.json';
+import cardsData from '@/public/cards.json';
 
 export default function Home() {
   return (
-    <div className="container p-4 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-4">
+    <div className="container p-4 mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
       {cardsData.map((card) => (
         <Card key={card.id} className="overflow-hidden">
           {card.modalContent ? (

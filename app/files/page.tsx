@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
-import organizationsData from '@/data/organizations.json'
+import organizationsData from '@/public/organizations.json'
 import { OrganizationsData } from '@/types/organizations'
 import { ScrollArea } from '@/components/ui/scroll-area'
 
