@@ -4,10 +4,10 @@
       "name": "MTEDD",
       "logo": "images/logos/mtedd1.png",
       "videos": [
-         "https://youtu.be/pmxBVnXs01o?si=yks4Kf9B_Z9Ba0qd",
-         "https://youtu.be/aYWay_fDUbU?si=VMmdfj803scaVTkb",
-         "https://youtu.be/sGTMH6VRqNk?si=h5_cRhKze0MNC53X",
-         "https://youtu.be/7POAmbnlG9M?si=I-FpitF6bJdyRSaX"
+         "https://www.youtube.com/embed/pmxBVnXs01o?si=BDxvpY8D3ym4lGcL",
+         "https://www.youtube.com/embed/aYWay_fDUbU?si=4jxJSnMccbXok-ar",
+         "https://www.youtube.com/embed/sGTMH6VRqNk?si=bet_4PAbqJzkKWIy",
+         "https://www.youtube.com/embed/7POAmbnlG9M?si=Nq4xsKL5yrZKS5Yl"
       ]
    },
    {
@@ -15,8 +15,8 @@
       "name": "AMEE",
       "logo": "images/logos/amee.png",
       "videos": [
-         "https://youtu.be/23fqm2Z1uDU?si=x0QIjntHRQrpClHC",
-         "https://youtu.be/ej-BhX7E7jw?si=0A8UwliOVDNWbTMq"
+         "https://www.youtube.com/embed/23fqm2Z1uDU?si=lqHLeWqHvXb0o46o",
+         "https://www.youtube.com/embed/ej-BhX7E7jw?si=4J8MhDbyFQnUhioq"
       ]
    },
    {
@@ -29,31 +29,37 @@
       "id": 4,
       "name": "MASEN",
       "logo": "/images/logos/masen.png",
-      "videos": ["https://youtu.be/Smb7CRG51Pc?si=WyAgb06M7zlJd-W-"]
+      "videos": [
+         "https://www.youtube.com/embed/Smb7CRG51Pc?si=bIZoHwiwrlgq7iDy"
+      ]
    },
    {
       "id": 5,
       "name": "ADA",
       "logo": "images/logos/ada.png",
       "videos": [
-         "https://youtu.be/U8yL4GB1xIk",
-         "https://youtu.be/BvJGJxCIirc",
-         "https://youtu.be/8EtlWPHOH8E",
-         "https://youtu.be/8EtlWPHOH8E",
-         "https://youtu.be/6QaaCcqm7Z0",
-         "https://youtu.be/EyuMfRJ-Puw"
+         "https://www.youtube.com/embed/U8yL4GB1xIk?si=1YharI79NxNwx5gS",
+         "https://www.youtube.com/embed/BvJGJxCIirc?si=CWrrXqhcEOa3SjY3",
+         "https://www.youtube.com/embed/8EtlWPHOH8E?si=E69ixL74Al-EYVAS",
+         "https://www.youtube.com/embed/8EtlWPHOH8E?si=7tpRV9t3cOvvvsas",
+         "https://www.youtube.com/embed/6QaaCcqm7Z0?si=uXCZJw7GnZidZeSb",
+         "https://www.youtube.com/embed/qkG0wCSBUwg?si=tlGEJFHSqCXxtI2G"
       ]
    },
    {
       "id": 6,
       "name": "OCP",
       "logo": "images/logos/ocp.png",
-      "videos": ["https://youtu.be/qkG0wCSBUwg"]
+      "videos": [
+         "https://www.youtube.com/embed/qkG0wCSBUwg?si=-1EK1qbSiukgeXSK"
+      ]
    },
    {
       "id": 7,
       "name": "EAU",
       "logo": "images/logos/eau.png",
-      "videos": ["https://youtu.be/g-iytGL83bk"]
+      "videos": [
+         "https://www.youtube.com/embed/g-iytGL83bk?si=1gqmR8ArdGYMEgVB"
+      ]
    }
 ]
