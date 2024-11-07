@@ -161,5 +161,110 @@
             "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Programme-Eolien-Integre.pdf"
          }
       ]
+   },
+   "ONEE": {
+      "id": 5,
+      "name": "ONEE",
+      "logo": "images/logos/onee.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Fiches ONEE V Ang",
+            "pdfUrl": ""
+         }
+      ]
+   },
+   "AMEE": {
+      "id": 6,
+      "name": "AMEE",
+      "logo": "images/logos/amee.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Guide Régulation thermique du bâtiment V Ang",
+            "pdfUrl": ""
+         },
+         {
+            "id": 2,
+            "title": "Guide Régulation thermique du bâtiment V Ar",
+            "pdfUrl": ""
+         },
+         {
+            "id": 3,
+            "title": "Guide Projets EE V Ar",
+            "pdfUrl": ""
+         },
+         {
+            "id": 4,
+            "title": "Guide Mosquées vertes V Ar",
+            "pdfUrl": ""
+         },
+         {
+            "id": 5,
+            "title": "Flyer best practices V Ang",
+            "pdfUrl": ""
+         },
+         {
+            "id": 6,
+            "title": "Flyer best practices V Ar",
+            "pdfUrl": ""
+         }
+      ]
+   },
+   "CDG": {
+      "id": 7,
+      "name": "CDG",
+      "logo": "images/logos/cdg.svg",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Plaquette V Ang",
+            "pdfUrl": ""
+         },
+         {
+            "id": 2,
+            "title": "Plaquette V Fr",
+            "pdfUrl": ""
+         },
+         {
+            "id": 3,
+            "title": "Plaquette V Ar",
+            "pdfUrl": ""
+         }
+      ]
+   },
+   "IRESEN": {
+      "id": 8,
+      "name": "IRESEN",
+      "logo": "images/logos/iresen.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Brochure IRESEN V Ang",
+            "pdfUrl": ""
+         }
+      ]
+   },
+   "OCP": {
+      "id": 9,
+      "name": "OCP",
+      "logo": "images/logos/ocp.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Brochure OCP V Ang",
+            "pdfUrl": ""
+         },
+         {
+            "id": 2,
+            "title": "Brochure OCP Africa V Ang",
+            "pdfUrl": ""
+         },
+         {
+            "id": 3,
+            "title": "OCP Sustainability Integrated V Ang",
+            "pdfUrl": ""
+         }
+      ]
    }
 }

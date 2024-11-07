@@ -1,38 +1,59 @@
 [
    {
       "id": 1,
-      "name": "ADA",
-      "logo": "/images/logos/ada.png",
+      "name": "MTEDD",
+      "logo": "images/logos/mtedd1.png",
       "videos": [
-         "https://www.youtube.com/embed/T8ymf2efp08?si=pHisG1zsK0bEGBe7",
-         "https://www.youtube.com/embed/5kavGugTUIc?si=QLkMYxVRgJ1kbnNQ",
-         "https://www.youtube.com/embed/VGRNAmik6V0?si=g3U5WzXOPkrl1fi2"
+         "https://youtu.be/pmxBVnXs01o?si=yks4Kf9B_Z9Ba0qd",
+         "https://youtu.be/aYWay_fDUbU?si=VMmdfj803scaVTkb",
+         "https://youtu.be/sGTMH6VRqNk?si=h5_cRhKze0MNC53X",
+         "https://youtu.be/7POAmbnlG9M?si=I-FpitF6bJdyRSaX"
       ]
    },
    {
       "id": 2,
-      "name": "EAU",
-      "logo": "/images/logos/eau.png",
+      "name": "AMEE",
+      "logo": "images/logos/amee.png",
       "videos": [
-         "https://www.youtube.com/embed/ojHKoe-1YpE?si=A6FBzBBclQVQiNoz"
+         "https://youtu.be/23fqm2Z1uDU?si=x0QIjntHRQrpClHC",
+         "https://youtu.be/ej-BhX7E7jw?si=0A8UwliOVDNWbTMq"
       ]
    },
    {
       "id": 3,
-      "name": "IRESEN",
-      "logo": "/images/logos/iresen.png",
-      "videos": [
-         "https://www.youtube.com/embed/XRzaH8fwzr0?si=9F45-mI-BEsd9h-I"
-      ]
+      "name": "CDG",
+      "logo": "/images/logos/cdg.svg",
+      "videos": [""]
    },
    {
       "id": 4,
       "name": "MASEN",
       "logo": "/images/logos/masen.png",
+      "videos": ["https://youtu.be/Smb7CRG51Pc?si=WyAgb06M7zlJd-W-"]
+   },
+   {
+      "id": 5,
+      "name": "ADA",
+      "logo": "images/logos/ada.png",
       "videos": [
-         "https://www.youtube.com/embed/6HySruXvvcA?si=r_eGXing13nC2pZp",
-         "https://www.youtube.com/embed/MRHlOhBjfmo?si=hHcPsTchg4xR6yMo",
-         "https://www.youtube.com/embed/O9BWNS7pMfM?si=tatyqWCLxFvZbH9o"
+         "https://youtu.be/U8yL4GB1xIk",
+         "https://youtu.be/BvJGJxCIirc",
+         "https://youtu.be/8EtlWPHOH8E",
+         "https://youtu.be/8EtlWPHOH8E",
+         "https://youtu.be/6QaaCcqm7Z0",
+         "https://youtu.be/EyuMfRJ-Puw"
       ]
+   },
+   {
+      "id": 6,
+      "name": "OCP",
+      "logo": "images/logos/ocp.png",
+      "videos": ["https://youtu.be/qkG0wCSBUwg"]
+   },
+   {
+      "id": 7,
+      "name": "EAU",
+      "logo": "images/logos/eau.png",
+      "videos": ["https://youtu.be/g-iytGL83bk"]
    }
 ]
