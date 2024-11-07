@@ -170,7 +170,7 @@
          {
             "id": 1,
             "title": "Fiches ONEE V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          }
       ]
    },
@@ -182,32 +182,32 @@
          {
             "id": 1,
             "title": "Guide Régulation thermique du bâtiment V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 2,
             "title": "Guide Régulation thermique du bâtiment V Ar",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 3,
             "title": "Guide Projets EE V Ar",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 4,
             "title": "Guide Mosquées vertes V Ar",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 5,
             "title": "Flyer best practices V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 6,
             "title": "Flyer best practices V Ar",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          }
       ]
    },
@@ -219,17 +219,17 @@
          {
             "id": 1,
             "title": "Plaquette V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 2,
             "title": "Plaquette V Fr",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 3,
             "title": "Plaquette V Ar",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          }
       ]
    },
@@ -241,7 +241,7 @@
          {
             "id": 1,
             "title": "Brochure IRESEN V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          }
       ]
    },
@@ -253,17 +253,17 @@
          {
             "id": 1,
             "title": "Brochure OCP V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 2,
             "title": "Brochure OCP Africa V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          },
          {
             "id": 3,
             "title": "OCP Sustainability Integrated V Ang",
-            "pdfUrl": ""
+            "pdfUrl": "#"
          }
       ]
    }

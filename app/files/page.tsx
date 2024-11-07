@@ -58,7 +58,7 @@ export default function FilesPage() {
               {selectedOrg && typedOrganizationsData[selectedOrg].name} Documents
             </DialogTitle>
           </DialogHeader>
-          <ScrollArea className="flex-grow px-6 pb-6 h-70 rounded-md border">
+          <ScrollArea className="flex-grow px-6 py-6 h-70 rounded-md border">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {selectedOrg &&
                 typedOrganizationsData[selectedOrg].documents.map((doc) => (
