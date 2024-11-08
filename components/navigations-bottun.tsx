@@ -37,7 +37,7 @@ export default function NavigationButtons() {
         variant="outline"
         size="icon"
         className="fixed bottom-[48%] md:bottom-[37%] right-4  md:w-14 md:h-14  z-50 bg-black "
-        onClick={() => router.push('/cop29')}
+        onClick={() => router.push('/')}
       >
         <Home className="h-9 w-9 text-white hover:text-black" />
       </Button>
