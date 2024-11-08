@@ -7,42 +7,44 @@
          {
             "id": 1,
             "title": "Overview of our strategies",
+            "logo": "images/logos/mtedd1.png",
             "documents": [
                {
                   "id": 1,
-                  "title": "FS-CIRCULAR ECONOMY 2024 (6-11)",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-CIRCULAR ECONOMY 2024 (6-11).pdf"
+                  "title": "Cooperation Afrique-COP29 BD",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/Cooperation Afrique-COP29 BD.pdf"
                },
                {
                   "id": 2,
-                  "title": "FS-Cooperation with  Africa-COP29 (6-11)",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Cooperation with  Africa-COP29 (6-11) (2).pdf"
+                  "title": "DEPL CIRCULAR ECONOMY 2024 BD",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/DEPL CIRCULAR ECONOMY 2024 BD.pdf"
                },
                {
                   "id": 3,
-                  "title": "FS-Enabling environment & Inv Opportunities (6-11)",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Enabling environment & Inv Opportunities (6-11).pdf"
+                  "title": "Enabling environment - Green BD",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/Enabling environment - Green BD.pdf"
                },
                {
                   "id": 4,
-                  "title": "FS-Low_Emission Development Strategy",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Low_Emission Development Strategy.pdf"
+                  "title": "LED Low Emission",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/LED-Low Emission.pdf"
                },
                {
                   "id": 5,
-                  "title": "FS-SNDD-COP29 (4-11)",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-SNDD-COP29 (4-11) (1).pdf"
+                  "title": "LED SNDD",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/LED-SNDD.pdf"
                },
                {
                   "id": 6,
-                  "title": "FS-Towards A Sustainable Energy Transition",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Towards A Sustainable Energy Transition (1).pdf"
+                  "title": "TOWARDS A Sustainable energy BD",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/TOWARDS A Sustainable energy BD.pdf"
                }
             ]
          },
          {
             "id": 2,
             "title": "Publication",
+            "logo": "images/logos/mtedd1.png",
             "documents": [
                {
                   "id": 1,
