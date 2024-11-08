@@ -24,8 +24,8 @@ jobs:
          - name: Deploy to cPanel
            uses: SamKirkland/FTP-Deploy-Action@4.3.3
            with:
-              server: ${{ secrets.FTP_SERVER_ZAK }}
-              username: ${{ secrets.FTP_USERNAME_ZAK }}
-              password: ${{ secrets.FTP_PASSWORD_ZAK }}
+              server: ${{ secrets.FTP_SERVER }}
+              username: ${{ secrets.FTP_USERNAME}}
+              password: ${{ secrets.FTP_PASSWORD }}
               local-dir: ./out/
               server-dir: /
