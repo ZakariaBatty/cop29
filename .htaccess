@@ -1,5 +1,10 @@
 <IfModule mod_rewrite.c>
-   RewriteEngine On RewriteBase / RewriteRule ^index\.html$ - [L] RewriteCond
-   %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule .
-   /index.html [L]
+   RewriteEngine On RewriteBase /cop29/ # Redirect all requests to the Next.js
+   server, except for existing files and directories RewriteCond
+   %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule
+   ^(.*)$ /cop29/_next/server/pages/$1 [L] # Handle requests for static files
+   RewriteRule ^_next/static/(.*)$ /cop29/_next/static/$1 [L] # Handle API
+   routes RewriteRule ^api/(.*)$ /cop29/api/$1 [L] # Fallback to index for
+   client-side routing RewriteCond %{REQUEST_FILENAME} !-f RewriteCond
+   %{REQUEST_FILENAME} !-d RewriteRule . /cop29/index.html [L]
 </IfModule>
