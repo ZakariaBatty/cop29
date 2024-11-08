@@ -4,10 +4,13 @@
       "name": "MTEDD",
       "logo": "images/logos/mtedd1.png",
       "videos": [
-         "https://www.youtube.com/embed/pmxBVnXs01o?si=BDxvpY8D3ym4lGcL",
-         "https://www.youtube.com/embed/aYWay_fDUbU?si=4jxJSnMccbXok-ar",
-         "https://www.youtube.com/embed/sGTMH6VRqNk?si=bet_4PAbqJzkKWIy",
-         "https://www.youtube.com/embed/7POAmbnlG9M?si=Nq4xsKL5yrZKS5Yl"
+         "https://www.youtube.com/embed/REz58Cd561c?si=O8SZK9kv_GyUfMg3",
+         "https://www.youtube.com/embed/2XxlXS-sjg4?si=0RB-HlWXBbNqO3Sj",
+         "https://www.youtube.com/embed/VroJt8RVuDk?si=6OiLYZod-2TArAPI",
+         "https://www.youtube.com/embed/pmxBVnXs01o?si=TOWezBFFDwfptmDM",
+         "https://www.youtube.com/embed/aYWay_fDUbU?si=0dHvDFGoCrP_OwmF",
+         "https://www.youtube.com/embed/sGTMH6VRqNk?si=ziI5wLnq6woAd04Q",
+         "https://www.youtube.com/embed/7POAmbnlG9M?si=sn_88ugTWZMhGGZ8"
       ]
    },
    {
@@ -15,22 +18,24 @@
       "name": "AMEE",
       "logo": "images/logos/amee.png",
       "videos": [
-         "https://www.youtube.com/embed/23fqm2Z1uDU?si=lqHLeWqHvXb0o46o",
-         "https://www.youtube.com/embed/ej-BhX7E7jw?si=4J8MhDbyFQnUhioq"
+         "https://www.youtube.com/embed/7POAmbnlG9M?si=sn_88ugTWZMhGGZ8"
       ]
    },
    {
       "id": 3,
       "name": "CDG",
-      "logo": "/images/logos/cdg.svg",
-      "videos": [""]
+      "logo": "images/logos/cdg.svg",
+      "videos": [
+         "https://www.youtube.com/embed/2iZ0NOwYz2Y?si=jRmy2cfu9dukkbRA"
+      ]
    },
    {
       "id": 4,
       "name": "MASEN",
-      "logo": "/images/logos/masen.png",
+      "logo": "images/logos/masen.png",
       "videos": [
-         "https://www.youtube.com/embed/Smb7CRG51Pc?si=bIZoHwiwrlgq7iDy"
+         "https://www.youtube.com/embed/6HySruXvvcA?si=0jWcFmBdnU9cT29u",
+         "https://www.youtube.com/embed/Smb7CRG51Pc?si=D-kfAeIxetW1fTXM"
       ]
    },
    {
@@ -38,12 +43,13 @@
       "name": "ADA",
       "logo": "images/logos/ada.png",
       "videos": [
-         "https://www.youtube.com/embed/U8yL4GB1xIk?si=1YharI79NxNwx5gS",
-         "https://www.youtube.com/embed/BvJGJxCIirc?si=CWrrXqhcEOa3SjY3",
-         "https://www.youtube.com/embed/8EtlWPHOH8E?si=E69ixL74Al-EYVAS",
-         "https://www.youtube.com/embed/8EtlWPHOH8E?si=7tpRV9t3cOvvvsas",
-         "https://www.youtube.com/embed/6QaaCcqm7Z0?si=uXCZJw7GnZidZeSb",
-         "https://www.youtube.com/embed/qkG0wCSBUwg?si=tlGEJFHSqCXxtI2G"
+         "https://www.youtube.com/embed/VGRNAmik6V0?si=vOLh7tfiVUhLtET3",
+         "https://www.youtube.com/embed/U8yL4GB1xIk?si=0nW7PbHARfUC1toE",
+         "https://www.youtube.com/embed/BvJGJxCIirc?si=MrOdCWgduMoDUTmZ",
+         "https://www.youtube.com/embed/8EtlWPHOH8E?si=2Kf83N1zbaXKdl4q",
+         "https://www.youtube.com/embed/8EtlWPHOH8E?si=HexWiUSOd4k1_AKM",
+         "https://www.youtube.com/embed/6QaaCcqm7Z0?si=Uulp-jfA1xccJ9XA",
+         "https://www.youtube.com/embed/EyuMfRJ-Puw?si=J5Zmqa-GxNdPk_dE"
       ]
    },
    {
@@ -51,7 +57,7 @@
       "name": "OCP",
       "logo": "images/logos/ocp.png",
       "videos": [
-         "https://www.youtube.com/embed/qkG0wCSBUwg?si=-1EK1qbSiukgeXSK"
+         "https://www.youtube.com/embed/qkG0wCSBUwg?si=z3bmtrsuAzd_-gvz"
       ]
    },
    {
@@ -59,7 +65,18 @@
       "name": "EAU",
       "logo": "images/logos/eau.png",
       "videos": [
-         "https://www.youtube.com/embed/g-iytGL83bk?si=1gqmR8ArdGYMEgVB"
+         "https://www.youtube.com/embed/g-iytGL83bk?si=0-t9pyHl5ucPYLZj"
+      ]
+   },
+   {
+      "id": 8,
+      "name": "MINT",
+      "logo": "images/logos/Logo-VF.png",
+      "videos": [
+         "https://www.youtube.com/embed/xyHjsQppY30?si=rjo7xuP2bI8Lq5wn",
+         "https://www.youtube.com/embed/-2xTfl7O2Uo?si=4Wv2kvpQ7XL8wtgF",
+         "https://www.youtube.com/embed/OjY8QcRFIrk?si=PJfpVru_V5tdNOwK",
+         "https://www.youtube.com/embed/QEsLQG_I1b0?si=KeMOsBPHPDlVhG7t"
       ]
    }
 ]

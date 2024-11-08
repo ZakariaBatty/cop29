@@ -2,163 +2,215 @@
    "MTEDD": {
       "id": 1,
       "name": "MTEDD",
-      "logo": "/images/logos/mtedd1.png",
+      "logo": "images/logos/mtedd1.png",
       "documents": [
          {
             "id": 1,
-            "title": "LA MISE EN OEUVRE DE LA STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/La_mise_en_oeuvre_de_la_Strategie_Nationale_de_Developpement_Durable_Recueil_des_plans_dactions_sectoriels.pdf"
+            "title": "Overview of our strategies",
+            "documents": [
+               {
+                  "id": 1,
+                  "title": "FS-CIRCULAR ECONOMY 2024 (6-11)",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-CIRCULAR ECONOMY 2024 (6-11).pdf"
+               },
+               {
+                  "id": 2,
+                  "title": "FS-Cooperation with  Africa-COP29 (6-11)",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Cooperation with  Africa-COP29 (6-11) (2).pdf"
+               },
+               {
+                  "id": 3,
+                  "title": "FS-Enabling environment & Inv Opportunities (6-11)",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Enabling environment & Inv Opportunities (6-11).pdf"
+               },
+               {
+                  "id": 4,
+                  "title": "FS-Low_Emission Development Strategy",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Low_Emission Development Strategy.pdf"
+               },
+               {
+                  "id": 5,
+                  "title": "FS-SNDD-COP29 (4-11)",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-SNDD-COP29 (4-11) (1).pdf"
+               },
+               {
+                  "id": 6,
+                  "title": "FS-Towards A Sustainable Energy Transition",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/FS-Towards A Sustainable Energy Transition (1).pdf"
+               }
+            ]
          },
          {
             "id": 2,
-            "title": "PACTE DE L'EXEMPLARITÉ DE L'ADMINISTRATION",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Pacte_de_lExemplarite_de_lAdministration_Version_Francaise.pdf"
-         },
-         {
-            "id": 3,
-            "title": "SURVEILLANCE DE LA QUALITÉ DES EAUX DE BAIGNADE ET DU SABLE DES PLAGES DU ROYAUME",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/QUALITE_EAU_ET_SABLE_2022.pdf"
-         },
-         {
-            "id": 4,
-            "title": "STRATÉGIE NATIONALE DE DÉVELOPPEMENT DURABLE 2030",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Rapport_Strategie_Nationale_DD.pdf"
-         },
-         {
-            "id": 5,
-            "title": "LE 4ÈME RAPPORT SUR L'ETAT DE L'ENVIRONNEMENT",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/REEM4-VERSION_INTEGRALE.pdf"
-         },
-         {
-            "id": 6,
-            "title": "STRATÉGIE BAS CARBONE À LONG TERME",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/SBC_2050.pdf"
+            "title": "Publication",
+            "documents": [
+               {
+                  "id": 1,
+                  "title": "La mise SNDD",
+                  "pdfUrl": "Documents/MTEDD/Publication/La mise SNDD.pdf"
+               },
+               {
+                  "id": 2,
+                  "title": "Morocco BUR3 Francais",
+                  "pdfUrl": "Documents/MTEDD/Publication/Morocco BUR3 Fr.pdf"
+               },
+               {
+                  "id": 3,
+                  "title": "NDC Anglais",
+                  "pdfUrl": "Documents/MTEDD/Publication/NDC Ang.pdf"
+               },
+               {
+                  "id": 4,
+                  "title": "Pacte de lExemplarite de lAdministration Version Francaise",
+                  "pdfUrl": "Documents/MTEDD/Publication/Pacte_de_lExemplarite_de_lAdministration_Version_Francaise.pdf"
+               },
+               {
+                  "id": 5,
+                  "title": "Quatrie eme Communication Nationale MOR francais",
+                  "pdfUrl": "Documents/MTEDD/Publication/Quatrie Çme_Communication_Nationale_MOR_FR.pdf"
+               },
+               {
+                  "id": 6,
+                  "title": "Rapport Plages 2023 fraince",
+                  "pdfUrl": "Documents/MTEDD/Publication/Rapport Plages 2023_FR.pdf"
+               },
+               {
+                  "id": 7,
+                  "title": "Publication SBC_2050",
+                  "pdfUrl": "Documents/MTEDD/Publication/SBC_2050.pdf"
+               },
+               {
+                  "id": 8,
+                  "title": "Publication SNDD.pdf",
+                  "pdfUrl": "Documents/MTEDD/Publication/SNDD.pdf"
+               }
+            ]
          }
       ]
    },
    "ADA": {
       "id": 2,
       "name": "ADA",
-      "logo": "/images/logos/ada.png",
+      "logo": "images/logos/ada.png",
       "documents": [
          {
             "id": 1,
             "title": "CLIMATE FINANCE FUNDING OPPORTUNITIES IN MOROCCO",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-Plaquette-8-pages-GCF.-INSTIT-ANG.pdf"
+            "pdfUrl": "Documents/ADA/ADA-Plaquette institutionnelle  ANG 2020.pdf"
          },
          {
             "id": 2,
             "title": "INVESTOR’S GUIDE IN THE AGRICULTURAL SECTOR IN MOROCCO",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-INVESTORS-GUIDE.pdf"
+            "pdfUrl": "Documents/ADA/ADA-INVESTORÔÇÖS GUIDE.pdf"
          },
          {
             "id": 3,
             "title": "PLAQUETTE INSTITUTIONNELLE 2020",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-Plaquette-institutionnelle-ANG-2020.pdf"
+            "pdfUrl": "Documents/ADA/ADA-Plaquette institutionnelle  ANG 2020.pdf"
          },
          {
             "id": 4,
             "title": "PROCESS FOR SUBMITTING ADAPTATION AND MITIGATION PROJECTS TO GREEN CLIMATE FUND FINANCING",
-            "pdfUrl": "/https://doc.morocco-cop29.com/wp-content/uploads/2024/11/ADA-VANG-New-livret.pdf"
+            "pdfUrl": "/Documents/ADA/ADA-VANG-New livret.pdf"
          }
       ]
    },
    "EAU": {
       "id": 3,
       "name": "EAU",
-      "logo": "/images/logos/eau.png",
+      "logo": "images/logos/eau.png",
       "documents": [
          {
             "id": 1,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Ar",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/الماء-في-المغرب-معطيات-وأرقام.pdf"
+            "pdfUrl": "Documents/Eau/Ïº┘ä┘àÏºÏí ┘ü┘è Ïº┘ä┘àÏ║Ï▒Ï¿ ┘àÏ╣ÏÀ┘èÏºÏ¬ ┘êÏº┘öÏ▒┘éÏº┘à.pdf"
          },
          {
             "id": 2,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Fr",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Depliant-Eau-un-Maroc-Faits-et-Chiffres.pdf"
+            "pdfUrl": "Documents/Eau/De╠üpliant Eau un Maroc  Faits et Chiffres.pdf"
          },
          {
             "id": 3,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Ang",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Water-in-Morocco-Facts-and-Figures.pdf"
+            "pdfUrl": "Documents/Eau/Water in Morocco Facts and Figures.pdf"
          },
          {
             "id": 4,
             "title": "Brochure Eeau pour un Maroc prospère et résilient",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Brochure-22-pages-Eeau-pour-un-Maroc-prospere-et-resilient.pdf"
+            "pdfUrl": "Documents/Eau/Brochure 22 pages Eeau pour un Maroc prospe╠Çre et re╠üsilient.pdf"
          },
          {
             "id": 5,
             "title": "Brochure Water For a prosperous and resilient Morocco",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Brochure-22-p-Water-For-a-prosperous-and-resilient-Morocco-1.pdf"
+            "pdfUrl": "Documents/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1).pdf"
          }
       ]
    },
    "MASEN": {
       "id": 4,
       "name": "MASEN",
-      "logo": "/images/logos/masen.png",
+      "logo": "images/logos/masen.png",
       "documents": [
          {
             "id": 1,
             "title": "Plaquette OFFRE MAROC HYDROGÈNE VERT",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/24-00548-Plaquette-GH218x26VF.pdf"
+            "pdfUrl": "Documents/MASEN/24-00548-Plaquette-GH2(18x26)VF.pdf"
          },
          {
             "id": 2,
             "title": "GREEN HYDROGEN MOROCCAN OFFER",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/24-00548-Plaquette-GH218x26VUK.pdf"
+            "pdfUrl": "Documents/MASEN/24-00548-Plaquette-GH2(18x26)VUK.pdf"
          },
          {
             "id": 3,
             "title": "Fiche Noor Boujdour I",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Boujdour-I.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Boujdour-I.pdf"
          },
          {
             "id": 4,
             "title": "Fiche Noor Laayoune I",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Laayoune-I.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Laayoune-I.pdf"
          },
          {
             "id": 5,
             "title": "Fiche Noor Midelt I",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Midelt-I.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Midelt-I.pdf"
          },
          {
             "id": 6,
             "title": "Fiche Noor Ouarzazate I",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-I.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Ouarzazate-I.pdf"
          },
          {
             "id": 7,
             "title": "Fiche Noor Ouarzazate II",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-II.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Ouarzazate-II.pdf"
          },
          {
             "id": 8,
             "title": "Fiche Noor Ouarzazate III",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-III.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Ouarzazate-III.pdf"
          },
          {
             "id": 9,
             "title": "Fiche Noor Ouarzazate IV",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Ouarzazate-IV.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Ouarzazate-IV.pdf"
          },
          {
             "id": 10,
             "title": "Fiche Noor Laayoune I",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Noor-Laayoune-I.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Noor-Laayoune-I.pdf"
          },
          {
             "id": 11,
             "title": "Fiche Parc Eolien Koudia Al Baida",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Parc-Eolien-Koudia-Al-Baida.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Parc-Eolien-Koudia-Al-Baida.pdf"
          },
          {
             "id": 12,
             "title": "Fiche Programme Eolien Integre.pdf",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Fiche-Programme-Eolien-Integre.pdf"
+            "pdfUrl": "Documents/MASEN/Fiche-Programme-Eolien-Integre.pdf"
          }
       ]
    },
@@ -170,7 +222,7 @@
          {
             "id": 1,
             "title": "Fiches ONEE V Ang",
-            "pdfUrl": "#"
+            "pdfUrl": "Documents/ONEE/Fiches-Bornes-ONEE.pdf"
          }
       ]
    },
@@ -181,33 +233,33 @@
       "documents": [
          {
             "id": 1,
-            "title": "Guide Régulation thermique du bâtiment V Ang",
-            "pdfUrl": "#"
+            "title": "Guide Thermal Regulation of construction AMEE English",
+            "pdfUrl": "Documents/AMEE/Guide Thermal Regulation of construction AMEE English.pdf"
          },
          {
             "id": 2,
-            "title": "Guide Régulation thermique du bâtiment V Ar",
-            "pdfUrl": "#"
+            "title": "Guide Thermal Regulation of construction AMEE arabic",
+            "pdfUrl": "Documents/AMEE/Guide Thermal Regulation of construction AMEE arabic.pdf"
          },
          {
             "id": 3,
-            "title": "Guide Projets EE V Ar",
-            "pdfUrl": "#"
+            "title": "Guide 9 projets EE_AMEE Arabic",
+            "pdfUrl": "Documents/AMEE/Guide 9 projets EE_AMEE Arabic.pdf"
          },
          {
             "id": 4,
-            "title": "Guide Mosquées vertes V Ar",
-            "pdfUrl": "#"
+            "title": "Flyer best practices AMEE English",
+            "pdfUrl": "Documents/AMEE/Flyer best practices_AMEE_English.pdf"
          },
          {
             "id": 5,
-            "title": "Flyer best practices V Ang",
-            "pdfUrl": "#"
+            "title": "Flyer best practices AMEE English",
+            "pdfUrl": "Documents/AMEE/Flyer best practices_AMEE_English.pdf"
          },
          {
             "id": 6,
-            "title": "Flyer best practices V Ar",
-            "pdfUrl": "#"
+            "title": "Green mosques flyer AMEE Arabic",
+            "pdfUrl": "Documents/AMEE/Green mosques flyer AMEE Arabic.pdf"
          }
       ]
    },
@@ -218,18 +270,18 @@
       "documents": [
          {
             "id": 1,
-            "title": "Plaquette V Ang",
-            "pdfUrl": "#"
+            "title": "Plaquette INEE - Arabe",
+            "pdfUrl": "Documents/CDG/Plaquette INEE - Arabe.pdf"
          },
          {
             "id": 2,
-            "title": "Plaquette V Fr",
-            "pdfUrl": "#"
+            "title": "Plaquette INEE - English",
+            "pdfUrl": "Documents/CDG/Plaquette INEE - English.pdf"
          },
          {
             "id": 3,
-            "title": "Plaquette V Ar",
-            "pdfUrl": "#"
+            "title": "Plaquette INEE - Francais",
+            "pdfUrl": "Documents/CDG/Plaquette INEE - Francais.pdf"
          }
       ]
    },
@@ -240,8 +292,8 @@
       "documents": [
          {
             "id": 1,
-            "title": "Brochure IRESEN V Ang",
-            "pdfUrl": "#"
+            "title": "Brochure - GEPMCI English",
+            "pdfUrl": "Documents/IRESEN/Brochure - GEPMCI Ang.pdf"
          }
       ]
    },
@@ -252,18 +304,18 @@
       "documents": [
          {
             "id": 1,
-            "title": "Brochure OCP V Ang",
-            "pdfUrl": "#"
+            "title": "Brochure Corporate OCP 2022",
+            "pdfUrl": "Documents/OCP/Brochure Corporate OCP 2022.pdf"
          },
          {
             "id": 2,
-            "title": "Brochure OCP Africa V Ang",
-            "pdfUrl": "#"
+            "title": "Brochure corporate OCP AFRICA 2022",
+            "pdfUrl": "Documents/OCP/Brochure corporate OCP AFRICA 2022.pdf"
          },
          {
             "id": 3,
-            "title": "OCP Sustainability Integrated V Ang",
-            "pdfUrl": "#"
+            "title": "OCP SUSTAINABILITY INTEGRATED REPORT 2021_GRI Certified",
+            "pdfUrl": "Documents/OCP/OCP SUSTAINABILITY INTEGRATED REPORT 2021_GRI Certified.pdf"
          }
       ]
    }
