@@ -24,7 +24,7 @@
    {
       "id": 3,
       "name": "CDG",
-      "logo": "/images/logos/cdg.svg",
+      "logo": "images/logos/cdg.svg",
       "videos": [
          "https://www.youtube.com/embed/2iZ0NOwYz2Y?si=jRmy2cfu9dukkbRA"
       ]
@@ -32,7 +32,7 @@
    {
       "id": 4,
       "name": "MASEN",
-      "logo": "/images/logos/masen.png",
+      "logo": "images/logos/masen.png",
       "videos": [
          "https://www.youtube.com/embed/6HySruXvvcA?si=0jWcFmBdnU9cT29u",
          "https://www.youtube.com/embed/Smb7CRG51Pc?si=D-kfAeIxetW1fTXM"

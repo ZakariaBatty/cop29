@@ -2,7 +2,7 @@
    {
       "id": 1,
       "title": "Side Events",
-      "image": "/images/444.png",
+      "image": "images/444.png",
       "link": "#",
       "documents": [
          {
@@ -25,19 +25,19 @@
    {
       "id": 2,
       "title": "Documents",
-      "image": "/images/2222.png",
+      "image": "images/2222.png",
       "link": "/files"
    },
    {
       "id": 3,
       "title": "Videos",
-      "image": "/images/333.png",
+      "image": "images/333.png",
       "link": "/videos"
    },
    {
       "id": 4,
       "title": "Social Media",
-      "image": "/images/555.png",
+      "image": "images/555.png",
       "link": "/rs"
    }
 ]

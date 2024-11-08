@@ -59,7 +59,7 @@ export default function DocumentViewer() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <Image
-                  src="/images/JAMILA1.png"
+                  src="images/JAMILA1.png"
                   alt="JAMILA1"
                   width={155}
                   height={200}
