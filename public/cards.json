@@ -3,22 +3,25 @@
       "id": 1,
       "title": "Side Events",
       "image": "images/444.png",
-      "link": "#",
+      "link": "/events",
       "documents": [
          {
             "id": 1,
-            "title": "Global Overview",
-            "pdfUrl": "Documents/LED-Morocco Pavilion.pdf"
+            "title": "program by day",
+            "image": "images/ICON01.png",
+            "pdfUrl": "Documents/Programme par jour COP29.pdf"
          },
          {
             "id": 2,
-            "title": "detailed program",
-            "pdfUrl": "Documents/Programme global COP29-.pdf"
+            "title": "Global Overview",
+            "image": "images/ICON02.png",
+            "pdfUrl": "Documents/LED-Morocco Pavilion.pdf"
          },
          {
             "id": 3,
-            "title": "program by day",
-            "pdfUrl": "Documents/Programme par jour COP29.pdf"
+            "title": "detailed program",
+            "image": "images/ICON03.png",
+            "pdfUrl": "Documents/Programme global COP29-.pdf"
          }
       ]
    },
