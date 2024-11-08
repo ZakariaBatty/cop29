@@ -41,7 +41,6 @@ export default function DocumentViewer() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-8 text-center">Documents</h1>
-
       {/* Organizations Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mx-auto">
         {Object.values(organizationsData).map((org: Organization) => (
@@ -57,6 +56,14 @@ export default function DocumentViewer() {
                   alt={org.name}
                   fill
                   className="object-contain"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+                <Image
+                  src="/images/JAMILA1.png"
+                  alt="JAMILA1"
+                  width={155}
+                  height={200}
+                  className="object-contain mx-auto"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>

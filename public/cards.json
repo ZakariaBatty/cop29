@@ -4,18 +4,7 @@
       "title": "Side Events",
       "image": "/images/444.png",
       "link": "#",
-      "documents": [
-         {
-            "id": 1,
-            "title": "Liste des Side Events au 25 octobre 2024 17H52",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Program-Side-Event-Cop29.pdf"
-         },
-         {
-            "id": 2,
-            "title": "side events - Global Overview",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Global-Overview.pdf"
-         }
-      ]
+      "modalContent": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Program-Side-Event-Cop29.pdf"
    },
    {
       "id": 2,
