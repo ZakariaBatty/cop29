@@ -9,7 +9,7 @@ export default function NavigationButtons() {
   const pathname = usePathname()
   const router = useRouter()
 
-  if (pathname === '/') {
+  if (pathname === '/cop29' || pathname === '/') {
     return null
     return (
       <>

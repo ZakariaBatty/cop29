@@ -7,13 +7,18 @@
       "documents": [
          {
             "id": 1,
-            "title": "Liste des Side Events au 25 octobre 2024 17H52",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Program-Side-Event-Cop29.pdf"
+            "title": "Global Overview",
+            "pdfUrl": "Documents/Global-Overview.pdf"
          },
          {
             "id": 2,
-            "title": "side events - Global Overview",
-            "pdfUrl": "https://doc.morocco-cop29.com/wp-content/uploads/2024/11/Global-Overview.pdf"
+            "title": "detailed program",
+            "pdfUrl": "Documents/Programme global COP29-.pdf"
+         },
+         {
+            "id": 3,
+            "title": "program by day",
+            "pdfUrl": "Documents/Programme par jour COP29.pdf"
          }
       ]
    },
