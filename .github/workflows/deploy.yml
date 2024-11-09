@@ -2,7 +2,7 @@ name: Deploy to cPanel
 on:
    push:
       branches:
-         - local-pdfs
+         - new-programmes
 
 jobs:
    build-and-deploy:

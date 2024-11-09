@@ -3,10 +3,12 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './imageLoader.js',
   },
-  // basePath: '/',
-  // assetPrefix: '/',
-
+  basePath: '/cop29',
+  assetPrefix: '/cop29/',
+  trailingSlash: true,
 };
 
 export default nextConfig;

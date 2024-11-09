@@ -23,11 +23,11 @@ export default function MTEDDDocuments() {
       <h1 className="text-3xl font-bold mb-8 text-center">MTEDD Documents</h1>
 
       {/* Document Categories Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto md:w-[60%]">
         {(mteddData.documents as DocumentCategory[]).map((category) => (
           <Card
             key={category.id}
-            className="group cursor-pointer transition-colors hover:bg-[#a4cce0]"
+            className="group cursor-pointer transition-colors hover:bg-[#cfdbe2]"
             onClick={() => handleCategoryClick(category)}
           >
             <CardContent className="p-6 flex flex-col items-center justify-center">
@@ -37,14 +37,6 @@ export default function MTEDDDocuments() {
                   alt={category.title}
                   fill
                   className="object-contain"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-                <Image
-                  src="images/JAMILA1.png"
-                  alt="JAMILA1"
-                  width={155}
-                  height={200}
-                  className="object-contain mx-auto"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
