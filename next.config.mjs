@@ -7,9 +7,6 @@ const nextConfig = {
   basePath: '/cop29',
   assetPrefix: '/cop29/',
   trailingSlash: true,
-  env: {
-    NODE_ENV: process.env.NODE_ENV,
-  },
 };
 
 export default nextConfig;
