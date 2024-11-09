@@ -1,30 +1,21 @@
 "use client"
 
-import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { Card, CardContent } from "@/components/ui/card"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { ScrollArea } from '@/components/ui/scroll-area'
 import organizationsData from '@/public/organizations.json'
 
-import { Organization, Document, DocumentCategory, OrganizationsData } from '@/types/organizations'
+import { Organization, OrganizationsData } from '@/types/organizations'
 import CustomImage from '@/components/CustomImageProps'
-import DocumentLink from '@/components/DocumentLink'
 
 export default function DocumentViewer() {
-  const [selectedOrg, setSelectedOrg] = useState<Organization | null>(null)
   const router = useRouter()
 
   const handleOrgClick = (org: Organization) => {
     if (org.id === 1) { // MTEDD
       router.push('/files/mtedd-documents')
     } else {
-      setSelectedOrg(org)
+      router.push(`/files/${org.id}`)
     }
-  }
-
-  const isNestedStructure = (docs: Document[] | DocumentCategory[]): docs is DocumentCategory[] => {
-    return docs.length > 0 && 'documents' in docs[0]
   }
 
   return (
@@ -62,35 +53,6 @@ export default function DocumentViewer() {
           </Card>
         ))}
       </div>
-
-      {/* Documents Dialog for non-MTEDD organizations */}
-      <Dialog open={!!selectedOrg} onOpenChange={() => setSelectedOrg(null)}>
-        <DialogContent className="w-[90vw] max-w-5xl h-[90vh] flex flex-col p-0 gap-0">
-          <DialogHeader className="px-6 py-4 flex-shrink-0">
-            <DialogTitle className="text-xl font-semibold">
-              {selectedOrg?.name} Documents
-            </DialogTitle>
-          </DialogHeader>
-          <ScrollArea className="flex-grow px-6 py-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {selectedOrg && !isNestedStructure(selectedOrg.documents) &&
-                (selectedOrg.documents as Document[]).map((doc) => (
-                  <Card
-                    key={doc.id}
-                    className="border border-muted transition-colors hover:border-muted-foreground/25"
-                  >
-                    <CardContent className="p-4 space-y-4">
-                      <h3 className="font-medium leading-tight min-h-[2.5rem] line-clamp-2">
-                        {doc.title}
-                      </h3>
-                      <DocumentLink pdfUrl={doc.pdfUrl} />
-                    </CardContent>
-                  </Card>
-                ))}
-            </div>
-          </ScrollArea>
-        </DialogContent>
-      </Dialog>
     </div>
   )
 }
