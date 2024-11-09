@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
     loader: 'custom',
-    loaderFile: './imageLoader.js',
   },
   basePath: '/cop29',
   assetPrefix: '/cop29/',
