@@ -38,31 +38,31 @@
          {
             "id": 1,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Ar",
-            "icon": "/images/Icon/Eau/Water in Morocco Arab.jpg",
-            "pdfUrl": "/Documents/Eau/Eau-un-Maroc-Faits-et-Chiffres-1.jpg.pdf"
+            "icon": "/images/Icon/Eau/1.jpg",
+            "pdfUrl": "/Documents/Eau/Ïº┘ä┘àÏºÏí ┘ü┘è Ïº┘ä┘àÏ║Ï▒Ï¿ ┘àÏ╣ÏÀ┘èÏºÏ¬ ┘êÏº┘öÏ▒┘éÏº┘à.pdf"
          },
          {
             "id": 2,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Fr",
-            "icon": "/images/Icon/Eau/Eau-un-Maroc-Faits-et-Chiffres-1.jpg",
+            "icon": "/images/Icon/Eau/2.jpg",
             "pdfUrl": "/Documents/Eau/De╠üpliant Eau un Maroc  Faits et Chiffres.pdf"
          },
          {
             "id": 3,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Ang",
-            "icon": "/images/Icon/Eau/Water in Morocco Facts and Figures-1.jpg",
+            "icon": "/images/Icon/Eau/3.jpg",
             "pdfUrl": "/Documents/Eau/Water in Morocco Facts and Figures.pdf"
          },
          {
             "id": 4,
             "title": "Brochure Eeau pour un Maroc prospère et résilient",
-            "icon": "/images/Icon/Eau/Brochure Eeau pour un Maroc prospère et résilient.jpg",
+            "icon": "/images/Icon/Eau/4.jpg",
             "pdfUrl": "/Documents/Eau/Brochure 22 pages Eeau pour un Maroc prospe╠Çre et re╠üsilient.pdf"
          },
          {
             "id": 5,
             "title": "Brochure Water For a prosperous and resilient Morocco",
-            "icon": "/images/Icon/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1)-1.jpg",
+            "icon": "/images/Icon/Eau/5.jpg",
             "pdfUrl": "/Documents/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1).pdf"
          }
       ]
@@ -217,7 +217,7 @@
             "id": 3,
             "title": "Plaquette INEE - Francais",
             "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
-            "pdfUrl": "//images/Icon/CDG/Plaquette INEE - Francais-1.jpg"
+            "pdfUrl": "/images/Icon/CDG/Plaquette INEE - Francais-1.jpg"
          }
       ]
    },
