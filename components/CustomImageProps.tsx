@@ -5,7 +5,7 @@ type CustomImageProps = Omit<ImageProps, 'src'> & {
 }
 
 export default function CustomImage({ src, alt, ...props }: CustomImageProps) {
-  const fullSrc = src.startsWith('http') ? src : `${src}`
+  const fullSrc = src.startsWith('http') ? src : `/cop29${src}`
   return (
     <Image
       src={fullSrc}
