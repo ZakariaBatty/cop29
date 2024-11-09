@@ -7,7 +7,7 @@
          {
             "id": 1,
             "title": "Overview of our strategies",
-            "logo": "images/logos/Icon5.jpg",
+            "logo": "/images/logos/Icon5.jpg",
             "documents": [
                {
                   "id": 1,
@@ -44,7 +44,7 @@
          {
             "id": 2,
             "title": "Publication",
-            "logo": "images/logos/Icon4.jpg",
+            "logo": "/images/logos/Icon4.jpg",
             "documents": [
                {
                   "id": 1,
