@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
-import Image from 'next/image'
 import Link from 'next/link'
 import cardsVidoes from '@/public/cards-videos.json'
+import CustomImage from "@/components/CustomImageProps"
 
 export default function VideosPage() {
   return (
@@ -15,14 +15,14 @@ export default function VideosPage() {
             <Link href={`/videos/${org.id}`}>
               <CardContent className="p-6 flex flex-col items-center justify-center">
                 <div className="relative ">
-                  <Image
+                  <CustomImage
                     src={org.logo}
                     alt={org.name}
                     fill
                     className="object-contain"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <Image
+                  <CustomImage
                     src="images/JAMILA1.png"
                     alt="JAMILA1"
                     width={155}

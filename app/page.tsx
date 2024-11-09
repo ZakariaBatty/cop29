@@ -1,9 +1,9 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card";
-import Image from 'next/image';
 import Link from 'next/link';
 import cardsData from '@/public/cards.json';
+import CustomImage from "@/components/CustomImageProps";
 
 export default function Home() {
   return (
@@ -13,13 +13,13 @@ export default function Home() {
           {card.documents ? (
             <Link href={card.link}>
               <CardContent className="p-0 cursor-pointer">
-                <Image src={card.image} alt={card.title} width={200} height={200} className="w-full h-auto" />
+                <CustomImage src={card.image} alt={card.title} width={200} height={200} className="w-full h-auto" />
               </CardContent>
             </Link>
           ) : (
             <Link href={card.link}>
               <CardContent className="p-0">
-                <Image src={card.image} alt={card.title} width={200} height={200} className="w-full h-auto" />
+                <CustomImage src={card.image} alt={card.title} width={200} height={200} className="w-full h-auto" />
               </CardContent>
             </Link>
           )}

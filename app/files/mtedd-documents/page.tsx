@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
@@ -9,6 +8,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import organizationsData from '@/public/organizations.json'
 import { DocumentCategory, OrganizationsData } from '@/types/organizations'
+import CustomImage from '@/components/CustomImageProps'
 
 export default function MTEDDDocuments() {
   const mteddData = (organizationsData as OrganizationsData).MTEDD
@@ -32,7 +32,7 @@ export default function MTEDDDocuments() {
           >
             <CardContent className="p-6 flex flex-col items-center justify-center">
               <div className="relative w-full h-40">
-                <Image
+                <CustomImage
                   src={category.logo}
                   alt={category.title}
                   fill

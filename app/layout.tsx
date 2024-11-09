@@ -1,7 +1,7 @@
 import NavigationButtons from '@/components/navigations-bottun'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Image from 'next/image'
+import CustomImage from '@/components/CustomImageProps'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,12 +23,22 @@ export default function RootLayout({
           <header className="w-full mx-auto bg-[#56b2e1]">
             <div className="flex flex-col pr-6 pl-6  justify-center items-center ">
               <a href="/cop29">
-                <Image src="images/MTEDD2.png" alt="MTEDD Logo" className="py-4 mb-2" width={650}
-                  height={400} />
+                <CustomImage
+                  src="images/MTEDD2.png"
+                  alt="MTEDD Logo"
+                  width={650}
+                  height={400}
+                  className="py-4 mb-2"
+                />
               </a>
               <a href="/cop29" rel="noopener noreferrer">
-                <Image src="images/cop272.svg" alt="COP28 Logo" className="h-[100px]" width={500}
-                  height={300} />
+                <CustomImage
+                  src="images/cop272.svg"
+                  alt="MTEDD Logo"
+                  width={500}
+                  height={300}
+                  className="h-[100px]"
+                />
               </a>
             </div>
           </header>

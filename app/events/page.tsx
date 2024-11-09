@@ -1,9 +1,9 @@
 "use client"
 
-import Image from 'next/image'
 import { Card, CardContent } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import documentData from '@/public/cards.json'
+import CustomImage from '@/components/CustomImageProps'
 
 export default function MTEDDDocuments() {
 
@@ -15,7 +15,7 @@ export default function MTEDDDocuments() {
             <Dialog>
               <DialogTrigger asChild>
                 <CardContent className="p-0 cursor-pointer">
-                  <Image src={card.image} alt={card.title} width={200} height={200} className="" />
+                  <CustomImage src={card.image} alt={card.title} width={200} height={200} className="" />
                   <h2 className="text-lg text-center font-semibold">{card.title}</h2>
                 </CardContent>
               </DialogTrigger>

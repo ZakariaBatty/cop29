@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { Card, CardContent } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
@@ -11,6 +10,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import organizationsData from '@/public/organizations.json'
 
 import { Organization, Document, DocumentCategory, OrganizationsData } from '@/types/organizations'
+import CustomImage from '@/components/CustomImageProps'
 
 export default function DocumentViewer() {
   const [selectedOrg, setSelectedOrg] = useState<Organization | null>(null)
@@ -42,14 +42,14 @@ export default function DocumentViewer() {
           >
             <CardContent className="p-6 flex flex-col items-center justify-center">
               <div className="relative w-full h-40">
-                <Image
+                <CustomImage
                   src={org.logo}
                   alt={org.name}
                   fill
                   className="object-contain"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-                <Image
+                <CustomImage
                   src="images/JAMILA1.png"
                   alt="JAMILA1"
                   width={155}
