@@ -24,7 +24,7 @@ export default function RootLayout({
             <div className="flex flex-col pr-6 pl-6  justify-center items-center ">
               <a href="/cop29">
                 <CustomImage
-                  src="images/MTEDD2.png"
+                  src="/images/MTEDD2.png"
                   alt="MTEDD Logo"
                   width={650}
                   height={400}
@@ -33,7 +33,7 @@ export default function RootLayout({
               </a>
               <a href="/cop29" rel="noopener noreferrer">
                 <CustomImage
-                  src="images/cop272.svg"
+                  src="/images/cop272.svg"
                   alt="MTEDD Logo"
                   width={500}
                   height={300}

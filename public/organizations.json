@@ -2,12 +2,12 @@
    "MTEDD": {
       "id": 1,
       "name": "MTEDD",
-      "logo": "images/logos/mtedd1.png",
+      "logo": "/images/logos/mtedd1.png",
       "documents": [
          {
             "id": 1,
             "title": "Overview of our strategies",
-            "logo": "images/logos/Icon5.jpg",
+            "logo": "/images/logos/Icon5.jpg",
             "documents": [
                {
                   "id": 1,
@@ -44,7 +44,7 @@
          {
             "id": 2,
             "title": "Publication",
-            "logo": "images/logos/Icon4.jpg",
+            "logo": "/images/logos/Icon4.jpg",
             "documents": [
                {
                   "id": 1,
@@ -93,7 +93,7 @@
    "ADA": {
       "id": 2,
       "name": "ADA",
-      "logo": "images/logos/ada.png",
+      "logo": "/images/logos/ada.png",
       "documents": [
          {
             "id": 1,
@@ -120,7 +120,7 @@
    "EAU": {
       "id": 3,
       "name": "EAU",
-      "logo": "images/logos/eau.png",
+      "logo": "/images/logos/eau.png",
       "documents": [
          {
             "id": 1,
@@ -152,7 +152,7 @@
    "MASEN": {
       "id": 4,
       "name": "MASEN",
-      "logo": "images/logos/masen.png",
+      "logo": "/images/logos/masen.png",
       "documents": [
          {
             "id": 1,
@@ -219,7 +219,7 @@
    "ONEE": {
       "id": 5,
       "name": "ONEE",
-      "logo": "images/logos/onee.png",
+      "logo": "/images/logos/onee.png",
       "documents": [
          {
             "id": 1,
@@ -231,7 +231,7 @@
    "AMEE": {
       "id": 6,
       "name": "AMEE",
-      "logo": "images/logos/amee.png",
+      "logo": "/images/logos/amee.png",
       "documents": [
          {
             "id": 1,
@@ -268,7 +268,7 @@
    "CDG": {
       "id": 7,
       "name": "CDG",
-      "logo": "images/logos/cdg.svg",
+      "logo": "/images/logos/cdg.svg",
       "documents": [
          {
             "id": 1,
@@ -290,7 +290,7 @@
    "IRESEN": {
       "id": 8,
       "name": "IRESEN",
-      "logo": "images/logos/iresen.png",
+      "logo": "/images/logos/iresen.png",
       "documents": [
          {
             "id": 1,
@@ -302,7 +302,7 @@
    "OCP": {
       "id": 9,
       "name": "OCP",
-      "logo": "images/logos/ocp.png",
+      "logo": "/images/logos/ocp.png",
       "documents": [
          {
             "id": 1,

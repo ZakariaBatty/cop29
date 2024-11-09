@@ -2,25 +2,25 @@
    {
       "id": 1,
       "title": "Side Events",
-      "image": "images/444.png",
+      "image": "/images/444.png",
       "link": "/events",
       "documents": [
          {
             "id": 1,
             "title": "program by day",
-            "image": "images/ICON01.png",
+            "image": "/images/ICON01.png",
             "pdfUrl": "Documents/Programme par jour COP29.pdf"
          },
          {
             "id": 2,
             "title": "Global Overview",
-            "image": "images/ICON02.png",
+            "image": "/images/ICON02.png",
             "pdfUrl": "Documents/LED-Morocco Pavilion.pdf"
          },
          {
             "id": 3,
             "title": "detailed program",
-            "image": "images/ICON03.png",
+            "image": "/images/ICON03.png",
             "pdfUrl": "Documents/Programme global COP29-.pdf"
          }
       ]
@@ -28,19 +28,19 @@
    {
       "id": 2,
       "title": "Documents",
-      "image": "images/2222.png",
+      "image": "/images/2222.png",
       "link": "/files"
    },
    {
       "id": 3,
       "title": "Videos",
-      "image": "images/333.png",
+      "image": "/images/333.png",
       "link": "/videos"
    },
    {
       "id": 4,
       "title": "Social Media",
-      "image": "images/555.png",
+      "image": "/images/555.png",
       "link": "/rs"
    }
 ]
