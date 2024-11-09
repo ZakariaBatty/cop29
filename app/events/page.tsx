@@ -20,7 +20,7 @@ export default function MTEDDDocuments() {
                 </CardContent>
               </DialogTrigger>
               <DialogContent className="max-w-4xl h-[80vh]">
-                <iframe src={card.pdfUrl} className="w-full h-full" />
+                <iframe src={`/cop29${card.pdfUrl}`} className="w-full h-full" />
               </DialogContent>
             </Dialog>
           </CardContent>
