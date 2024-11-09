@@ -1,0 +1,262 @@
+[
+   {
+      "id": 2,
+      "name": "ADA",
+      "logo": "/images/logos/ada.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "CLIMATE FINANCE FUNDING OPPORTUNITIES IN MOROCCO",
+            "icon": "/images/Icon/ADA/ADA - Plaquette 8 pages GCF. INSTIT ANG-1.jpg",
+            "pdfUrl": "/Documents/ADA/ADA-Plaquette institutionnelle  ANG 2020.pdf"
+         },
+         {
+            "id": 2,
+            "title": "INVESTOR’S GUIDE IN THE AGRICULTURAL SECTOR IN MOROCCO",
+            "icon": "/images/Icon/ADA/ADA-INV.jpg",
+            "pdfUrl": "/Documents/ADA/ADA-INVESTORÔÇÖS GUIDE.pdf"
+         },
+         {
+            "id": 3,
+            "title": "PLAQUETTE INSTITUTIONNELLE 2020",
+            "icon": "/images/Icon/ADA/ADA-Plaquette institutionnelle  ANG 2020-1.jpg",
+            "pdfUrl": "/Documents/ADA/ADA-Plaquette institutionnelle  ANG 2020.pdf"
+         },
+         {
+            "id": 4,
+            "title": "PROCESS FOR SUBMITTING ADAPTATION AND MITIGATION PROJECTS TO GREEN CLIMATE FUND FINANCING",
+            "icon": "/images/Icon/ADA/ADA-VANG-New livret-1.jpg",
+            "pdfUrl": "/Documents/ADA/ADA-VANG-New livret.pdf"
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "name": "EAU",
+      "logo": "/images/logos/eau.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Dépliant Eau un Maroc  Faits et Chiffres Ar",
+            "icon": "/images/Icon/Eau/Water in Morocco Arab.jpg",
+            "pdfUrl": "/Documents/Eau/Eau-un-Maroc-Faits-et-Chiffres-1.jpg.pdf"
+         },
+         {
+            "id": 2,
+            "title": "Dépliant Eau un Maroc  Faits et Chiffres Fr",
+            "icon": "/images/Icon/Eau/Eau-un-Maroc-Faits-et-Chiffres-1.jpg",
+            "pdfUrl": "/Documents/Eau/De╠üpliant Eau un Maroc  Faits et Chiffres.pdf"
+         },
+         {
+            "id": 3,
+            "title": "Dépliant Eau un Maroc  Faits et Chiffres Ang",
+            "icon": "/images/Icon/Eau/Water in Morocco Facts and Figures-1.jpg",
+            "pdfUrl": "/Documents/Eau/Water in Morocco Facts and Figures.pdf"
+         },
+         {
+            "id": 4,
+            "title": "Brochure Eeau pour un Maroc prospère et résilient",
+            "icon": "/images/Icon/Eau/Brochure Eeau pour un Maroc prospère et résilient.jpg",
+            "pdfUrl": "/Documents/Eau/Brochure 22 pages Eeau pour un Maroc prospe╠Çre et re╠üsilient.pdf"
+         },
+         {
+            "id": 5,
+            "title": "Brochure Water For a prosperous and resilient Morocco",
+            "icon": "/images/Icon/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1)-1.jpg",
+            "pdfUrl": "/Documents/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1).pdf"
+         }
+      ]
+   },
+   {
+      "id": 4,
+      "name": "MASEN",
+      "logo": "/images/logos/masen.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Plaquette OFFRE MAROC HYDROGÈNE VERT",
+            "icon": "/images/Icon/MASEN/24-00548-Plaquette-GH2(18x26)VF-1.jpg",
+            "pdfUrl": "/Documents/MASEN/24-00548-Plaquette-GH2(18x26)VF.pdf"
+         },
+         {
+            "id": 2,
+            "title": "GREEN HYDROGEN MOROCCAN OFFER",
+            "icon": "/images/Icon/MASEN/24-00548-Plaquette-GH2(18x26)VUK-1.jpg",
+            "pdfUrl": "/Documents/MASEN/24-00548-Plaquette-GH2(18x26)VUK.pdf"
+         },
+         {
+            "id": 3,
+            "title": "Fiche Noor Boujdour I",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Boujdour-I.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Boujdour-I.pdf"
+         },
+         {
+            "id": 4,
+            "title": "Fiche Noor Laayoune I",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Laayoune-I.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Laayoune-I.pdf"
+         },
+         {
+            "id": 5,
+            "title": "Fiche Noor Midelt I",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Midelt-I.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Midelt-I.pdf"
+         },
+         {
+            "id": 6,
+            "title": "Fiche Noor Ouarzazate I",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Ouarzazate-I.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Ouarzazate-I.pdf"
+         },
+         {
+            "id": 7,
+            "title": "Fiche Noor Ouarzazate II",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Ouarzazate-II.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Ouarzazate-II.pdf"
+         },
+         {
+            "id": 8,
+            "title": "Fiche Noor Ouarzazate III",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Ouarzazate-III.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Ouarzazate-III.pdf"
+         },
+         {
+            "id": 9,
+            "title": "Fiche Noor Ouarzazate IV",
+            "icon": "/images/Icon/MASEN/Fiche-Noor-Ouarzazate-IV.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Noor-Ouarzazate-IV.pdf"
+         },
+         {
+            "id": 10,
+            "title": "Fiche Parc Eolien Koudia Al Baida",
+            "icon": "/images/Icon/MASEN/Fiche-Parc-Eolien-Koudia-Al-Baida.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Parc-Eolien-Koudia-Al-Baida.pdf"
+         },
+         {
+            "id": 11,
+            "title": "Fiche Programme Eolien Integre.pdf",
+            "icon": "/images/Icon/MASEN/Fiche-Programme-Eolien-Integre.jpg",
+            "pdfUrl": "/Documents/MASEN/Fiche-Programme-Eolien-Integre.pdf"
+         }
+      ]
+   },
+   {
+      "id": 5,
+      "name": "ONEE",
+      "logo": "/images/logos/onee.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Fiches ONEE V Ang",
+            "icon": "/images/Icon/ONEE/Fiches-Bornes-ONEE-1.jpg",
+            "pdfUrl": "/Documents/ONEE/Fiches-Bornes-ONEE.pdf"
+         }
+      ]
+   },
+   {
+      "id": 6,
+      "name": "AMEE",
+      "logo": "/images/logos/amee.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Guide Thermal Regulation of construction AMEE English",
+            "icon": "/images/Icon/AMEE/Guide Thermal Regulation of construction AMEE English-1.jpg",
+            "pdfUrl": "/Documents/AMEE/Guide Thermal Regulation of construction AMEE English.pdf"
+         },
+         {
+            "id": 2,
+            "title": "Guide Thermal Regulation of construction AMEE arabic",
+            "icon": "/images/Icon/AMEE/Guide Thermal Regulation of construction AMEE arabic-1.jpg",
+            "pdfUrl": "/Documents/AMEE/Guide Thermal Regulation of construction AMEE arabic.pdf"
+         },
+         {
+            "id": 3,
+            "title": "Flyer best practices AMEE English",
+            "icon": "/images/Icon/AMEE/Flyer best practices_AMEE_English-1.jpg",
+            "pdfUrl": "/Documents/AMEE/Flyer best practices_AMEE_English.pdf"
+         },
+         {
+            "id": 4,
+            "title": "Guide 9 projets EE AMEE Arabic",
+            "icon": "/images/Icon/AMEE/Guide 9 projets EE_AMEE Arabic-1.jpg",
+            "pdfUrl": "/Documents/AMEE/Guide 9 projets EE_AMEE Arabic.pdf"
+         },
+         {
+            "id": 5,
+            "title": "Flyer best practices AMEE Arabc",
+            "icon": "/images/Icon/AMEE/Flyer best practices_AMEE_Arabe-1.jpg",
+            "pdfUrl": "/Documents/AMEE/Flyer best practices_AMEE_Arabe.pdf"
+         },
+         {
+            "id": 6,
+            "title": "Green mosques flyer AMEE Arabic",
+            "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
+            "pdfUrl": "/Documents/AMEE/Green mosques flyer AMEE Arabic.pdf"
+         }
+      ]
+   },
+   {
+      "id": 7,
+      "name": "CDG",
+      "logo": "/images/logos/cdg.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Plaquette INEE - Arabe",
+            "icon": "/images/Icon/CDG/Plaquette INEE - Arabe-1.jpg",
+            "pdfUrl": "/Documents/CDG/Plaquette INEE - Arabe.pdf"
+         },
+         {
+            "id": 2,
+            "title": "Plaquette INEE - English",
+            "icon": "/images/Icon/CDG/Plaquette INEE - English-1.jpg",
+            "pdfUrl": "/Documents/CDG/Plaquette INEE - English.pdf"
+         },
+         {
+            "id": 3,
+            "title": "Plaquette INEE - Francais",
+            "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
+            "pdfUrl": "//images/Icon/CDG/Plaquette INEE - Francais-1.jpg"
+         }
+      ]
+   },
+   {
+      "id": 8,
+      "name": "IRESEN",
+      "logo": "/images/logos/iresen.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Brochure - GEPMCI English",
+            "icon": "/images/Icon/IRESEN/Brochure - GEPMCI Ang-1.jpg",
+            "pdfUrl": "/Documents/IRESEN/Brochure - GEPMCI Ang.pdf"
+         }
+      ]
+   },
+   {
+      "id": 9,
+      "name": "OCP",
+      "logo": "/images/logos/ocp.png",
+      "documents": [
+         {
+            "id": 1,
+            "title": "Brochure Corporate OCP 2022",
+            "icon": "/images/Icon/OCP/Brochure Corporate OCP 2022-1.jpg",
+            "pdfUrl": "/Documents/OCP/Brochure Corporate OCP 2022.pdf"
+         },
+         {
+            "id": 2,
+            "title": "Brochure corporate OCP AFRICA 2022",
+            "icon": "/images/Icon/OCP/Brochure corporate OCP AFRICA 2022-1.jpg",
+            "pdfUrl": "/Documents/OCP/Brochure corporate OCP AFRICA 2022.pdf"
+         },
+         {
+            "id": 3,
+            "title": "OCP SUSTAINABILITY INTEGRATED REPORT 2021_GRI Certified",
+            "icon": "/images/Icon/OCP/OCP SUSTAINABILITY INTEGRATED REPORT 2021_GRI Certified-1.jpg",
+            "pdfUrl": "/Documents/OCP/OCP SUSTAINABILITY INTEGRATED REPORT 2021_GRI Certified.pdf"
+         }
+      ]
+   }
+]

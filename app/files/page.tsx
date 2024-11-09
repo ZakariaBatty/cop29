@@ -14,7 +14,7 @@ export default function DocumentViewer() {
     if (org.id === 1) { // MTEDD
       router.push('/files/mtedd-documents')
     } else {
-      router.push(`/files/${org.name}`)
+      router.push(`/files/${org.id}`)
     }
   }
 
