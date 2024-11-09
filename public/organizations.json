@@ -38,6 +38,11 @@
                   "id": 6,
                   "title": "TOWARDS A Sustainable energy BD",
                   "pdfUrl": "/cop29/Documents/MTEDD/Overview-of-our-strategies/TOWARDS A Sustainable energy BD.pdf"
+               },
+               {
+                  "id": 7,
+                  "title": "TGreen Hydrogen Moroccan Offer",
+                  "pdfUrl": "/cop29/Documents/MTEDD/Overview-of-our-strategies/TOWARDS A Sustainable energy BD.pdf"
                }
             ]
          },
@@ -268,7 +273,7 @@
    "CDG": {
       "id": 7,
       "name": "CDG",
-      "logo": "/images/logos/cdg.svg",
+      "logo": "/images/logos/cdg.png",
       "documents": [
          {
             "id": 1,

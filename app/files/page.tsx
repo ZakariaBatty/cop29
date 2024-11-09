@@ -40,8 +40,8 @@ export default function DocumentViewer() {
             className="group cursor-pointer transition-colors hover:bg-[#a4cce0]"
             onClick={() => handleOrgClick(org)}
           >
-            <CardContent className="p-6 flex flex-col items-center justify-center">
-              <div className="relative w-full h-40">
+            <CardContent className="p-4 flex flex-col items-center justify-center">
+              <div className="relative">
                 <CustomImage
                   src={org.logo}
                   alt={org.name}
@@ -58,7 +58,7 @@ export default function DocumentViewer() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
-              <h2 className="mt-4 text-lg font-semibold">{org.name}</h2>
+              {/* <h2 className=" text-lg font-semibold">{org.name}</h2> */}
             </CardContent>
           </Card>
         ))}
