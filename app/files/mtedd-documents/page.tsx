@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation'
 import { Card, CardContent } from "@/components/ui/card"
 import organizationsData from '@/public/organizations.json'
 import { DocumentCategory, OrganizationsData } from '@/types/organizations'
-import CustomImage from '@/components/CustomImageProps'
 
 export default function MTEDDDocuments() {
   const router = useRouter()
@@ -23,27 +22,18 @@ export default function MTEDDDocuments() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-8 text-center">MTEDD Documents</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">MTEDD</h1>
 
       {/* Document Categories Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto md:w-[60%]">
         {(mteddData.documents as DocumentCategory[]).map((category) => (
           <Card
             key={category.id}
-            className="group cursor-pointer transition-colors hover:bg-[#cfdbe2]"
+            className="group cursor-pointer transition-colors bg-[#56b2e1] hover:bg-[#aed5e8]"
             onClick={() => handleCategoryClick(category)}
           >
-            <CardContent className="p-6 flex flex-col items-center justify-center">
-              <div className="relative w-full h-40">
-                <CustomImage
-                  src={category.logo}
-                  alt={category.title}
-                  fill
-                  className="object-contain"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-              </div>
-              <h2 className="mt-4 text-lg font-semibold">{category.title}</h2>
+            <CardContent className="p-6 h-72 flex flex-col items-center justify-center text-white">
+              <h2 className="mt-4 text-2xl font-semibold">{category.title}</h2>
             </CardContent>
           </Card>
         ))}
