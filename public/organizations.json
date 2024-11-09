@@ -11,38 +11,45 @@
             "documents": [
                {
                   "id": 1,
-                  "title": "Cooperation Afrique-COP29 BD",
-                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/Cooperation Afrique-COP29 BD.pdf"
+                  "title": "LED SNDD",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/IconLED-SNDD-1.jpg",
+                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/LED-SNDD.pdf"
                },
                {
                   "id": 2,
-                  "title": "DEPL CIRCULAR ECONOMY 2024 BD",
-                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/DEPL CIRCULAR ECONOMY 2024 BD.pdf"
+                  "title": "LED Strategy",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/IconLED-SNDD-1.jpg",
+                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/LED-Low Emission.pdf"
                },
                {
                   "id": 3,
-                  "title": "Enabling environment - Green BD",
+                  "title": "Enabling Environment",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconEnablingenvironment.jpg",
                   "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/Enabling environment - Green BD.pdf"
                },
                {
                   "id": 4,
-                  "title": "LED Low Emission",
-                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/LED-Low Emission.pdf"
+                  "title": "Cooperation wtith Africa",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconCooperationAfrique.jpg",
+                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/Cooperation Afrique-COP29 BD.pdf"
                },
                {
                   "id": 5,
-                  "title": "LED SNDD",
-                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/LED-SNDD.pdf"
+                  "title": "Circular Economy",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconDEPLCIRCULARECONOMY.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/DEPL CIRCULAR ECONOMY 2024 BD.pdf"
                },
                {
                   "id": 6,
-                  "title": "TOWARDS A Sustainable energy BD",
+                  "title": "Towards a Sustainable Ennergy Transition",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconTOWARDS.jpg",
                   "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/TOWARDS A Sustainable energy BD.pdf"
                },
                {
                   "id": 7,
-                  "title": "TGreen Hydrogen Moroccan Offer",
-                  "pdfUrl": "/Documents//MTEDD/Overview-of-our-strategies/TOWARDS A Sustainable energy BD.pdf"
+                  "title": "Green Hydrogen Moroccan Offer",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconGreenHydrogen.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Green Hydrogen Moroccan Offer.pdf"
                }
             ]
          },
@@ -53,43 +60,57 @@
             "documents": [
                {
                   "id": 1,
-                  "title": "La mise SNDD",
-                  "pdfUrl": "/Documents//MTEDD/Publication/La mise SNDD.pdf"
+                  "title": "Rapport Etat Environnement",
+                  "icon": "/images/Icon/MTEDD/Publication/iconRapport Etat Envirenemet V Fr-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Rapport Etat Envirenemet V Fr.pdf"
                },
                {
                   "id": 2,
-                  "title": "Morocco BUR3 Francais",
-                  "pdfUrl": "/Documents//MTEDD/Publication/Morocco BUR3 Fr.pdf"
+                  "title": "NDC",
+                  "icon": "/images/Icon/MTEDD/Publication/iconNDC.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/NDC Ang.pdf"
                },
                {
                   "id": 3,
-                  "title": "NDC Anglais",
-                  "pdfUrl": "/Documents//MTEDD/Publication/NDC Ang.pdf"
+                  "title": "4ème CNCC",
+                  "icon": "/images/Icon/MTEDD/Publication/iconQuatrCommunication_Nationale_MOR_FR-1.jpg",
+                  "pdfUrl": "Documents/MTEDD/Publication/Quatrie╠Çme_Communication_Nationale_MOR_FR.pdf"
                },
                {
                   "id": 4,
-                  "title": "Pacte de lExemplarite de lAdministration Version Francaise",
-                  "pdfUrl": "/Documents//MTEDD/Publication/Pacte_de_lExemplarite_de_lAdministration_Version_Francaise.pdf"
+                  "title": "BUR3",
+                  "icon": "/images/Icon/MTEDD/Publication/iconMorocco BUR3 Fr-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Morocco BUR3 Fr.pdf"
                },
                {
                   "id": 5,
-                  "title": "Quatrie eme Communication Nationale MOR francais",
-                  "pdfUrl": "/Documents//MTEDD/Publication/Quatrie Çme_Communication_Nationale_MOR_FR.pdf"
+                  "title": "SNDD",
+                  "icon": "/images/Icon/MTEDD/Publication/iconSNDD-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/SNDD.pdf"
                },
                {
                   "id": 6,
-                  "title": "Rapport Plages 2023 fraince",
-                  "pdfUrl": "/Documents//MTEDD/Publication/Rapport Plages 2023_FR.pdf"
+                  "title": "Mise en œuvre SNDD",
+                  "icon": "/images/Icon/MTEDD/Publication/iconLamiseSNDD-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/La mise SNDD.pdf"
                },
                {
                   "id": 7,
-                  "title": "Publication SBC_2050",
-                  "pdfUrl": "/Documents//MTEDD/Publication/SBC_2050.pdf"
+                  "title": "Stratégie Bas Carbone",
+                  "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
+                  "pdfUrl": "Documents/MTEDD/Publication/SBC_2050.pdf"
                },
                {
                   "id": 8,
-                  "title": "Publication SNDD.pdf",
-                  "pdfUrl": "/Documents//MTEDD/Publication/SNDD.pdf"
+                  "title": "Rapport Hygiène plages 2023",
+                  "icon": "/images/Icon/MTEDD/Publication/iconRapport Plages 2023_FR-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Rapport Plages 2023_FR.pdf"
+               },
+               {
+                  "id": 9,
+                  "title": "Pacte de l’Exemplarité de l’Administration",
+                  "icon": "/images/Icon/MTEDD/Publication/iconPacte.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Pacte_de_lExemplarite╠ü_de_lAdministration_Version_Franc╠ºaise.pdf"
                }
             ]
          }
