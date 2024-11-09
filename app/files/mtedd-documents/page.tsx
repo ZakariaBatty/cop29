@@ -1,20 +1,24 @@
 "use client"
 
-import { useState } from 'react'
+import { useRouter } from 'next/navigation'
+
 import { Card, CardContent } from "@/components/ui/card"
-import { ScrollArea } from '@/components/ui/scroll-area'
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import organizationsData from '@/public/organizations.json'
 import { DocumentCategory, OrganizationsData } from '@/types/organizations'
 import CustomImage from '@/components/CustomImageProps'
-import DocumentLink from '@/components/DocumentLink'
 
 export default function MTEDDDocuments() {
+  const router = useRouter()
+
   const mteddData = (organizationsData as OrganizationsData).MTEDD
-  const [selectedCategory, setSelectedCategory] = useState<DocumentCategory | null>(null)
 
   const handleCategoryClick = (category: DocumentCategory) => {
-    setSelectedCategory(category)
+    console.log("category", category)
+    if (category.id === 1) {
+      router.push('/files/mtedd-documents/Overview/')
+    } else {
+      router.push('/files/mtedd-documents/Publication/')
+    }
   }
 
   return (
@@ -44,34 +48,6 @@ export default function MTEDDDocuments() {
           </Card>
         ))}
       </div>
-
-      {/* Documents Dialog */}
-      <Dialog open={!!selectedCategory} onOpenChange={() => setSelectedCategory(null)}>
-        <DialogContent className="w-[90vw] max-w-5xl h-[90vh] flex flex-col p-0 gap-0">
-          <DialogHeader className="px-6 py-4 flex-shrink-0">
-            <DialogTitle className="text-xl font-semibold">
-              {selectedCategory?.title} Documents
-            </DialogTitle>
-          </DialogHeader>
-          <ScrollArea className="flex-grow px-6 py-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {selectedCategory?.documents.map((doc) => (
-                <Card
-                  key={doc.id}
-                  className="border border-muted transition-colors hover:border-muted-foreground/25"
-                >
-                  <CardContent className="p-4 space-y-4">
-                    <h3 className="font-medium leading-tight min-h-[2.5rem] line-clamp-2">
-                      {doc.title}
-                    </h3>
-                    <DocumentLink pdfUrl={doc.pdfUrl} />
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </ScrollArea>
-        </DialogContent>
-      </Dialog>
     </div>
   )
 }
