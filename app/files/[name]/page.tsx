@@ -52,6 +52,7 @@ export default function FilesDetailPage({ params }: Props) {
               <DialogTrigger asChild>
                 <CardContent className="p-0 cursor-pointer">
                   <CustomImage src={card.icon} alt={card.title} width={200} height={200} className="" />
+                  <h2 className="text-xs pt-4 text-center font-semibold">{card.title}</h2>
                 </CardContent>
               </DialogTrigger>
               <DialogContent className="max-w-4xl h-[80vh]">
