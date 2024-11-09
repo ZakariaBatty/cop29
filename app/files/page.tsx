@@ -4,13 +4,12 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { Card, CardContent } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
 import { ScrollArea } from '@/components/ui/scroll-area'
 import organizationsData from '@/public/organizations.json'
 
 import { Organization, Document, DocumentCategory, OrganizationsData } from '@/types/organizations'
 import CustomImage from '@/components/CustomImageProps'
+import DocumentLink from '@/components/DocumentLink'
 
 export default function DocumentViewer() {
   const [selectedOrg, setSelectedOrg] = useState<Organization | null>(null)
@@ -84,13 +83,7 @@ export default function DocumentViewer() {
                       <h3 className="font-medium leading-tight min-h-[2.5rem] line-clamp-2">
                         {doc.title}
                       </h3>
-                      <Button
-                        className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
-                        onClick={() => window.open(doc.pdfUrl, '_blank')}
-                      >
-                        <Download className="mr-2 h-4 w-4" />
-                        Télécharger
-                      </Button>
+                      <DocumentLink pdfUrl={doc.pdfUrl} />
                     </CardContent>
                   </Card>
                 ))}
