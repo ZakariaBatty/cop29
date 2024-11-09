@@ -19,7 +19,7 @@
                   "id": 2,
                   "title": "LED Strategy",
                   "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/IconLED-SNDD-1.jpg",
-                  "pdfUrl": "Documents/MTEDD/Overview-of-our-strategies/LED-Low Emission.pdf"
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/LED-Low Emission.pdf"
                },
                {
                   "id": 3,
@@ -74,7 +74,7 @@
                   "id": 3,
                   "title": "4ème CNCC",
                   "icon": "/images/Icon/MTEDD/Publication/iconQuatrCommunication_Nationale_MOR_FR-1.jpg",
-                  "pdfUrl": "Documents/MTEDD/Publication/Quatrie╠Çme_Communication_Nationale_MOR_FR.pdf"
+                  "pdfUrl": "/Documents/MTEDD/Publication/Quatrie╠Çme_Communication_Nationale_MOR_FR.pdf"
                },
                {
                   "id": 4,
@@ -98,7 +98,7 @@
                   "id": 7,
                   "title": "Stratégie Bas Carbone",
                   "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
-                  "pdfUrl": "Documents/MTEDD/Publication/SBC_2050.pdf"
+                  "pdfUrl": "/Documents/MTEDD/Publication/SBC_2050.pdf"
                },
                {
                   "id": 8,
