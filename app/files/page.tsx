@@ -11,6 +11,7 @@ import organizationsData from '@/public/organizations.json'
 
 import { Organization, Document, DocumentCategory, OrganizationsData } from '@/types/organizations'
 import CustomImage from '@/components/CustomImageProps'
+import DocumentLink from '@/components/DocumentLinkProps'
 
 export default function DocumentViewer() {
   const [selectedOrg, setSelectedOrg] = useState<Organization | null>(null)
@@ -91,6 +92,7 @@ export default function DocumentViewer() {
                         <Download className="mr-2 h-4 w-4" />
                         Télécharger
                       </Button>
+                      <DocumentLink pdfUrl={doc.pdfUrl} title={doc.title} className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white" />
                     </CardContent>
                   </Card>
                 ))}
