@@ -68,7 +68,7 @@ export default function SocialMediaPage() {
           </CardContent>
         </Card>
 
-        <Card>
+        {/* <Card>
           <CardHeader>
             <CardTitle className="text-center bg-pink-600 text-white py-2">
               <a href="https://www.instagram.com/mtedd.ma/" target="_blank" rel="noopener noreferrer">
@@ -86,7 +86,7 @@ export default function SocialMediaPage() {
               allowTransparency={true}
             ></iframe>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </div>
   )

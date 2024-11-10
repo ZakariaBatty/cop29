@@ -21,7 +21,7 @@ interface CardData {
 
 // Adjust to match the structure in organizationsData, assuming `title` is used to find the publication data
 const publicationData = organizationsData.MTEDD.documents.find(
-  (doc: CardData) => doc.title !== "Publication"
+  (doc: CardData) => doc.title !== "Publications"
 ) as CardData | undefined;
 
 const PublicationComponent: React.FC = () => {

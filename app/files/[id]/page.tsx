@@ -31,7 +31,7 @@ export default function FilesDetailPage({ params }: Props) {
   // Determine the number of columns for the grid dynamically
   const gridCols =
     documentCount === 1
-      ? 'md:grid-cols-1'
+      ? 'md:grid-cols-1 mx-auto w-[30%]'
       : documentCount === 2
         ? 'md:grid-cols-2'
         : documentCount === 3 ? 'md:grid-cols-3'

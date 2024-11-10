@@ -50,20 +50,20 @@
          {
             "id": 3,
             "title": "Dépliant Eau un Maroc  Faits et Chiffres Ang",
-            "icon": "/images/Icon/Eau/3.jpg",
+            "icon": "/images/Icon/Eau/5.jpg",
             "pdfUrl": "/Documents/Eau/Water in Morocco Facts and Figures.pdf"
          },
          {
             "id": 4,
             "title": "Brochure Eeau pour un Maroc prospère et résilient",
-            "icon": "/images/Icon/Eau/4.jpg",
+            "icon": "/images/Icon/Eau/3.jpg",
             "pdfUrl": "/Documents/Eau/Brochure 22 pages Eeau pour un Maroc prospe╠Çre et re╠üsilient.pdf"
          },
          {
             "id": 5,
             "title": "Brochure Water For a prosperous and resilient Morocco",
-            "icon": "/images/Icon/Eau/5.jpg",
-            "pdfUrl": "/Documents/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1).pdf"
+            "icon": "/images/Icon/Eau/4.jpg",
+            "pdfUrl": "/Documents/Eau/Brochure 22 p Water For a prosperous and resilient Morocco (1).pdf"
          }
       ]
    },
@@ -134,7 +134,7 @@
          },
          {
             "id": 11,
-            "title": "Fiche Programme Eolien Integre.pdf",
+            "title": "Fiche Programme Eolien Intégré",
             "icon": "/images/Icon/MASEN/Fiche-Programme-Eolien-Integre.jpg",
             "pdfUrl": "/Documents/MASEN/Fiche-Programme-Eolien-Integre.pdf"
          }
@@ -179,7 +179,7 @@
          {
             "id": 4,
             "title": "Guide 9 projets EE AMEE Arabic",
-            "icon": "/images/Icon/AMEE/Guide 9 projets EE_AMEE Arabic-1.jpg",
+            "icon": "/images/Icon/AMEE/Green mosques flyer AMEE Arabic-1.jpg",
             "pdfUrl": "/Documents/AMEE/Guide 9 projets EE_AMEE Arabic.pdf"
          },
          {
@@ -216,8 +216,8 @@
          {
             "id": 3,
             "title": "Plaquette INEE - Francais",
-            "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
-            "pdfUrl": "/images/Icon/CDG/Plaquette INEE - Francais-1.jpg"
+            "icon": "/images/Icon/CDG/Plaquette INEE - Francais-1.jpg",
+            "pdfUrl": "/Documents/CDG/Plaquette INEE - Francais-1.jpg"
          }
       ]
    },
