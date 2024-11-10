@@ -3,41 +3,34 @@ import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import documentsData from '@/public/documents.json';
 import CustomImage from '@/components/CustomImageProps';
 
-// Define Props interface that will handle route parameters
 interface Props {
-  params: { id: string }; // `id` is a string type for dynamic routing
+  params: { id: string };
 }
 
-// Define the generateStaticParams function
 export function generateStaticParams() {
   return documentsData.map((doc) => ({
     id: doc.id.toString(),
   }));
 }
 
-// The component that renders the document details
 export default function FilesDetailPage({ params }: Props) {
-  // Find the document by id (using params.id)
   const document = documentsData.find((doc) => doc.id === Number(params.id));
 
-  // Handle case when the document is not found
   if (!document) {
     return <p className="text-3xl font-bold mb-6 text-center">Document not found</p>;
   }
 
-  // Calculate the number of documents
   const documentCount = document.documents.length;
 
-  // Determine the number of columns for the grid dynamically
   const gridCols =
     documentCount === 1
       ? 'md:grid-cols-1 mx-auto w-[30%]'
       : documentCount === 2
         ? 'md:grid-cols-2'
-        : documentCount === 3 ? 'md:grid-cols-3'
+        : documentCount === 3
+          ? 'md:grid-cols-3'
           : 'md:grid-cols-4';
 
-  // Render the list of documents for the document
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-8 text-center">{document.name}</h1>
@@ -61,18 +54,20 @@ export default function FilesDetailPage({ params }: Props) {
                     />
                   </div>
                 </DialogTrigger>
-                <DialogContent className="max-w-4xl h-[80vh]">
-                  <iframe
-                    src={`/cop29${card.pdfUrl}`}
-                    className="w-full h-full border-none"
-                    title={card.title}
-                  />
+                <DialogContent className="max-w-full md:max-w-4xl w-full h-[90vh] overflow-y-auto p-4">
+                  <div className="w-full h-full overflow-y-auto">
+                    <iframe
+                      src={`/cop29${card.pdfUrl}`}
+                      className="w-full h-full border-none"
+                      title={card.title}
+                    />
+                  </div>
                 </DialogContent>
               </Dialog>
             </CardContent>
 
-            <CardFooter className="w-full flex justify-center ">
-              <h2 className=" font-semibold text-xs px-4  rounded-md transition-colors +">
+            <CardFooter className="w-full flex justify-center">
+              <h2 className="font-semibold text-xs px-4 rounded-md transition-colors">
                 {card.title}
               </h2>
             </CardFooter>
@@ -80,6 +75,5 @@ export default function FilesDetailPage({ params }: Props) {
         ))}
       </div>
     </div>
-
   );
 }

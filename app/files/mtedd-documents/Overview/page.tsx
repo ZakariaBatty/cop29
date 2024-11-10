@@ -54,12 +54,14 @@ const PublicationComponent: React.FC = () => {
                     />
                   </div>
                 </DialogTrigger>
-                <DialogContent className="max-w-4xl h-[80vh]">
-                  <iframe
-                    src={`/cop29${card.pdfUrl}`}
-                    className="w-full h-full border-none"
-                    title={card.title}
-                  />
+                <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
+                  <div className="w-full h-full overflow-y-auto">
+                    <iframe
+                      src={`/cop29${card.pdfUrl}`}
+                      className="w-full h-full border-none"
+                      title={card.title}
+                    />
+                  </div>
                 </DialogContent>
               </Dialog>
             </CardContent>
