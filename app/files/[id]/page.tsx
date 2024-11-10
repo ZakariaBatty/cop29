@@ -2,7 +2,7 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import documentsData from '@/public/documents.json';
 import CustomImage from '@/components/CustomImageProps';
-import DocumentLink from '@/components/DocumentLink';
+import { Download } from 'lucide-react';
 
 interface Props {
   params: { id: string };
@@ -38,13 +38,10 @@ export default function FilesDetailPage({ params }: Props) {
 
       <div className={`grid grid-cols-1 ${gridCols} gap-4 justify-center mx-auto`}>
         {document.documents.map((card) => (
-          <Card
-            key={card.id}
-            className="group cursor-pointer transition-colors flex flex-col items-center justify-between p-4 rounded-lg shadow-lg"
-          >
-            <CardContent className="flex flex-col items-center justify-center p-4">
-              <Dialog>
-                <DialogTrigger asChild>
+          <Dialog key={card.id}>
+            <DialogTrigger asChild>
+              <Card className="group cursor-pointer transition-colors flex flex-col items-center justify-between p-4 rounded-lg shadow-lg">
+                <CardContent className="flex flex-col items-center justify-center p-4">
                   <div className="p-4 cursor-pointer flex flex-col items-center justify-center">
                     <CustomImage
                       src={card.icon}
@@ -54,28 +51,35 @@ export default function FilesDetailPage({ params }: Props) {
                       className="block mx-auto"
                     />
                   </div>
-                </DialogTrigger>
-                <DialogContent className="max-w-full md:max-w-4xl w-full h-[90vh] overflow-y-auto p-4">
-                  <div className="block md:hidden text-center">
-                    <DocumentLink pdfUrl={card.pdfUrl} />
-                  </div>
-                  <div className="hidden md:block w-full h-full overflow-y-auto">
-                    <iframe
-                      src={`/cop29${card.pdfUrl}`}
-                      className="w-full h-full border-none"
-                      title={card.title}
-                    />
-                  </div>
-                </DialogContent>
-              </Dialog>
-            </CardContent>
-
-            <CardFooter className="w-full flex justify-center">
-              <h2 className="font-semibold text-xs px-4 rounded-md transition-colors">
-                {card.title}
-              </h2>
-            </CardFooter>
-          </Card>
+                </CardContent>
+                <CardFooter className="w-full flex justify-center">
+                  <h2 className="font-semibold text-xs px-4 rounded-md transition-colors">
+                    {card.title}
+                  </h2>
+                </CardFooter>
+              </Card>
+            </DialogTrigger>
+            <DialogContent className="max-w-full md:max-w-4xl w-full h-[90vh] overflow-y-auto p-4">
+              <div className="block md:hidden text-center">
+                <a
+                  href={`/cop29${card.pdfUrl}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Télécharger
+                </a>
+              </div>
+              <div className="hidden md:block w-full h-full overflow-y-auto">
+                <iframe
+                  src={`/cop29${card.pdfUrl}`}
+                  className="w-full h-full border-none"
+                  title={card.title}
+                />
+              </div>
+            </DialogContent>
+          </Dialog>
         ))}
       </div>
     </div>
