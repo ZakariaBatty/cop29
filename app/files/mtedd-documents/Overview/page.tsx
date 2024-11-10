@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import organizationsData from "@/public/organizations.json";
@@ -19,17 +20,25 @@ interface CardData {
   documents: Document[];
 }
 
-// Adjust to match the structure in organizationsData, assuming `title` is used to find the publication data
-const publicationData = organizationsData.MTEDD.documents.find(
-  (doc: CardData) => doc.title !== "Publications"
-) as CardData | undefined;
+// Utility function to detect if the user is on a mobile device
+const isMobile = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-const PublicationComponent: React.FC = () => {
+const Overview: React.FC = () => {
+  const [isMobileDevice, setIsMobileDevice] = useState(false);
+
+  useEffect(() => {
+    setIsMobileDevice(isMobile());
+  }, []);
+
+  const publicationData = organizationsData.MTEDD.documents.find(
+    (doc: CardData) => doc.title !== "Publications"
+  ) as CardData | undefined;
+
   if (!publicationData) {
     return <p className="text-center">Publication data not found.</p>;
   }
 
-  const gridCols = "md:grid-cols-4"; // Define gridCols variable as needed
+  const gridCols = "md:grid-cols-4";
 
   return (
     <div className="container mx-auto p-4">
@@ -55,13 +64,22 @@ const PublicationComponent: React.FC = () => {
                   </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
-                  <div className="w-full h-full overflow-y-auto">
+                  {isMobileDevice ? (
+                    <a
+                      href={`/cop29${card.pdfUrl}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 underline"
+                    >
+                      Open PDF in a new tab
+                    </a>
+                  ) : (
                     <iframe
                       src={`/cop29${card.pdfUrl}`}
                       className="w-full h-full border-none"
                       title={card.title}
                     />
-                  </div>
+                  )}
                 </DialogContent>
               </Dialog>
             </CardContent>
@@ -78,4 +96,4 @@ const PublicationComponent: React.FC = () => {
   );
 };
 
-export default PublicationComponent;
+export default Overview;
