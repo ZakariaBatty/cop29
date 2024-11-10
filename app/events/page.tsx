@@ -10,24 +10,21 @@ import DocumentLink from "@/components/DocumentLink";
 // Utility function to detect if the user is on a mobile device
 const isMobile = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-
 export default function MTEDDDocuments() {
   const [isMobileDevice, setIsMobileDevice] = useState(false);
 
   useEffect(() => {
     setIsMobileDevice(isMobile());
   }, []);
+
   return (
-    <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-[50%]">
       {documentData[0]?.documents?.map((card) => (
-        <Card
-          key={card.id}
-          className="group cursor-pointer transition-colors shadow-lg rounded-lg p-4 flex flex-col items-center justify-between"
-        >
-          <CardContent className="flex flex-col items-center justify-center">
-            <Dialog>
-              <DialogTrigger asChild>
-                <div className="flex flex-col items-center cursor-pointer">
+        <Dialog key={card.id}>
+          <DialogTrigger asChild>
+            <Card className="group cursor-pointer transition-colors shadow-lg rounded-lg p-4 flex flex-col items-center justify-between">
+              <CardContent className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center">
                   <CustomImage
                     src={card.image}
                     alt={card.title}
@@ -36,30 +33,30 @@ export default function MTEDDDocuments() {
                     className="rounded-md mx-auto"
                   />
                 </div>
-              </DialogTrigger>
-              <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
-                {isMobileDevice ? (
-                  <div className="text-center mx-auto p-4">
-                    <DocumentLink pdfUrl={card.pdfUrl} />
-                  </div>
-                ) : (
-                  <div className="w-full h-full overflow-y-auto">
-                    <iframe
-                      src={`/cop29${card.pdfUrl}`}
-                      className="w-full h-full border-none"
-                      title={card.title}
-                    />
-                  </div>
-                )}
-              </DialogContent>
-            </Dialog>
-          </CardContent>
-          <CardFooter>
-            <h2 className="text-lg font-semibold text-center mt-4">
-              {card.title}
-            </h2>
-          </CardFooter>
-        </Card>
+              </CardContent>
+              <CardFooter>
+                <h2 className="text-lg font-semibold text-center mt-4">
+                  {card.title}
+                </h2>
+              </CardFooter>
+            </Card>
+          </DialogTrigger>
+          <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
+            {isMobileDevice ? (
+              <div className="text-center mx-auto p-4">
+                <DocumentLink pdfUrl={card.pdfUrl} />
+              </div>
+            ) : (
+              <div className="w-full h-full overflow-y-auto">
+                <iframe
+                  src={`/cop29${card.pdfUrl}`}
+                  className="w-full h-full border-none"
+                  title={card.title}
+                />
+              </div>
+            )}
+          </DialogContent>
+        </Dialog>
       ))}
     </div>
   );

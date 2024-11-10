@@ -47,13 +47,10 @@ const PublicationComponent: React.FC = () => {
 
       <div className={`grid grid-cols-1 ${gridCols} gap-4 justify-center mx-auto`}>
         {publicationData.documents.map((card) => (
-          <Card
-            key={card.id}
-            className="group cursor-pointer transition-colors flex flex-col items-center justify-between rounded-lg shadow-lg p-4"
-          >
-            <CardContent className="flex flex-col items-center justify-center p-4">
-              <Dialog>
-                <DialogTrigger asChild>
+          <Dialog key={card.id}>
+            <DialogTrigger asChild>
+              <Card className="group cursor-pointer transition-colors flex flex-col items-center justify-between rounded-lg shadow-lg p-4">
+                <CardContent className="flex flex-col items-center justify-center p-4">
                   <div className="p-0 cursor-pointer flex flex-col items-center justify-center">
                     <CustomImage
                       src={card.icon || ""}
@@ -63,29 +60,28 @@ const PublicationComponent: React.FC = () => {
                       className="mx-auto"
                     />
                   </div>
-                </DialogTrigger>
-                <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
-                  {isMobileDevice ? (
-                    <div className="text-center mx-auto p-4">
-                      <DocumentLink pdfUrl={card.pdfUrl} />
-                    </div>
-                  ) : (
-                    <iframe
-                      src={`/cop29${card.pdfUrl}`}
-                      className="w-full h-full border-none"
-                      title={card.title}
-                    />
-                  )}
-                </DialogContent>
-              </Dialog>
-            </CardContent>
-
-            <CardFooter className="w-full flex justify-center mt-1">
-              <h2 className="font-semibold text-xs px-4 py-2 rounded-md transition-colors">
-                {card.title}
-              </h2>
-            </CardFooter>
-          </Card>
+                </CardContent>
+                <CardFooter className="w-full flex justify-center mt-1">
+                  <h2 className="font-semibold text-xs px-4 py-2 rounded-md transition-colors">
+                    {card.title}
+                  </h2>
+                </CardFooter>
+              </Card>
+            </DialogTrigger>
+            <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
+              {isMobileDevice ? (
+                <div className="text-center mx-auto p-4">
+                  <DocumentLink pdfUrl={card.pdfUrl} />
+                </div>
+              ) : (
+                <iframe
+                  src={`/cop29${card.pdfUrl}`}
+                  className="w-full h-full border-none"
+                  title={card.title}
+                />
+              )}
+            </DialogContent>
+          </Dialog>
         ))}
       </div>
     </div>
