@@ -1,31 +1,47 @@
-"use client"
+"use client";
 
-import { Card, CardContent } from "@/components/ui/card"
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
-import documentData from '@/public/cards.json'
-import CustomImage from '@/components/CustomImageProps'
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import documentData from '@/public/cards.json';
+import CustomImage from '@/components/CustomImageProps';
 
 export default function MTEDDDocuments() {
-
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mx-auto">
+    <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {documentData[0]?.documents?.map((card) => (
-        <Card key={card.id} className="group cursor-pointer transition-colors">
-          <CardContent className="p-6 flex flex-col items-center justify-center">
+        <Card
+          key={card.id}
+          className="group cursor-pointer transition-colors shadow-lg rounded-lg p-4 flex flex-col items-center justify-between"
+        >
+          <CardContent className="flex flex-col items-center justify-center">
             <Dialog>
               <DialogTrigger asChild>
-                <CardContent className="p-0 cursor-pointer">
-                  <CustomImage src={card.image} alt={card.title} width={200} height={200} className="" />
-                  <h2 className="text-lg text-center font-semibold">{card.title}</h2>
-                </CardContent>
+                <div className="flex flex-col items-center cursor-pointer">
+                  <CustomImage
+                    src={card.image}
+                    alt={card.title}
+                    width={200}
+                    height={200}
+                    className="rounded-md mx-auto"
+                  />
+                </div>
               </DialogTrigger>
               <DialogContent className="max-w-4xl h-[80vh]">
-                <iframe src={`/cop29${card.pdfUrl}`} className="w-full h-full" />
+                <iframe
+                  src={`/cop29${card.pdfUrl}`}
+                  className="w-full h-full border-none"
+                  title={card.title}
+                />
               </DialogContent>
             </Dialog>
           </CardContent>
+          <CardFooter className="">
+            <h2 className="text-lg font-semibold text-center mt-4">
+              {card.title}
+            </h2>
+          </CardFooter>
         </Card>
       ))}
     </div>
-  )
+  );
 }

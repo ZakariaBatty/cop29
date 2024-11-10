@@ -44,30 +44,42 @@ export default function FilesDetailPage({ params }: Props) {
 
       <div className={`grid grid-cols-1 ${gridCols} gap-4 justify-center mx-auto`}>
         {document.documents.map((card) => (
-          <Card key={card.id} className="group cursor-pointer transition-colors">
-            <CardContent className="p-4 flex flex-col items-center justify-center">
+          <Card
+            key={card.id}
+            className="group cursor-pointer transition-colors flex flex-col items-center justify-between p-4 rounded-lg shadow-lg"
+          >
+            <CardContent className="flex flex-col items-center justify-center p-4">
               <Dialog>
                 <DialogTrigger asChild>
-                  <CardContent className="p-0 cursor-pointer p-4 flex flex-col items-center justify-center">
+                  <div className="p-4 cursor-pointer flex flex-col items-center justify-center">
                     <CustomImage
                       src={card.icon}
                       alt={card.title}
                       width={200}
-                      height={100}
+                      height={50}
+                      className="block mx-auto"
                     />
-                  </CardContent>
+                  </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-4xl h-[80vh]">
-                  <iframe src={`/cop29${card.pdfUrl}`} className="w-full h-full" />
+                  <iframe
+                    src={`/cop29${card.pdfUrl}`}
+                    className="w-full h-full border-none"
+                    title={card.title}
+                  />
                 </DialogContent>
               </Dialog>
-              <CardFooter>
-                <h2 className="text-xs pt-4 text-center font-semibold">{card.title}</h2>
-              </CardFooter>
             </CardContent>
+
+            <CardFooter className="w-full flex justify-center ">
+              <h2 className=" font-semibold text-xs px-4  rounded-md transition-colors +">
+                {card.title}
+              </h2>
+            </CardFooter>
           </Card>
         ))}
       </div>
     </div>
+
   );
 }

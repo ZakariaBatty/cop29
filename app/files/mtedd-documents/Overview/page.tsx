@@ -37,8 +37,11 @@ const PublicationComponent: React.FC = () => {
 
       <div className={`grid grid-cols-1 ${gridCols} gap-4 justify-center mx-auto`}>
         {publicationData.documents.map((card) => (
-          <Card key={card.id} className="group cursor-pointer transition-colors">
-            <CardContent className="p-4 flex flex-col items-center justify-center">
+          <Card
+            key={card.id}
+            className="group cursor-pointer transition-colors flex flex-col items-center justify-between rounded-lg shadow-lg p-4"
+          >
+            <CardContent className="flex flex-col items-center justify-center p-4">
               <Dialog>
                 <DialogTrigger asChild>
                   <div className="p-0 cursor-pointer flex flex-col items-center justify-center">
@@ -47,21 +50,25 @@ const PublicationComponent: React.FC = () => {
                       alt={card.title}
                       width={200}
                       height={100}
+                      className="mx-auto"
                     />
                   </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-4xl h-[80vh]">
                   <iframe
                     src={`/cop29${card.pdfUrl}`}
-                    className="w-full h-full"
+                    className="w-full h-full border-none"
                     title={card.title}
                   />
                 </DialogContent>
               </Dialog>
-              <CardFooter>
-                <h2 className="text-xs pt-4 text-center font-semibold">{card.title}</h2>
-              </CardFooter>
             </CardContent>
+
+            <CardFooter className="w-full flex justify-center mt-1">
+              <h2 className="font-semibold text-xs px-4 py-2 rounded-md transition-colors">
+                {card.title}
+              </h2>
+            </CardFooter>
           </Card>
         ))}
       </div>
