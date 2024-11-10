@@ -43,9 +43,7 @@ export default function MTEDDDocuments() {
           </DialogTrigger>
           <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
             {isMobileDevice ? (
-              <div className="text-center mx-auto p-4">
-                <DocumentLink pdfUrl={card.pdfUrl} />
-              </div>
+              <DocumentLink pdfUrl={card.pdfUrl} />
             ) : (
               <div className="w-full h-full overflow-y-auto">
                 <iframe

@@ -70,9 +70,7 @@ const Overview: React.FC = () => {
             </DialogTrigger>
             <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
               {isMobileDevice ? (
-                <div className="text-center mx-auto p-4">
-                  <DocumentLink pdfUrl={card.pdfUrl} />
-                </div>
+                <DocumentLink pdfUrl={card.pdfUrl} />
               ) : (
                 <iframe
                   src={`/cop29${card.pdfUrl}`}

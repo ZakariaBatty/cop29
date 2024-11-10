@@ -28,7 +28,7 @@ export default function NavigationButtons() {
       <Button
         variant="outline"
         size="icon"
-        className="fixed top-[42%] md:top-[45%] md:w-14 md:h-14 right-4 z-50 bg-black "
+        className="fixed top-[40%] md:top-[45%] md:w-14 md:h-14 right-4 z-50 bg-black "
         onClick={() => router.back()}
       >
         <ArrowLeft className="h-9 w-9 text-white hover:text-black" />

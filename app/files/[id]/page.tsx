@@ -3,6 +3,7 @@ import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import documentsData from '@/public/documents.json';
 import CustomImage from '@/components/CustomImageProps';
 import { Download } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 interface Props {
   params: { id: string };
@@ -60,16 +61,21 @@ export default function FilesDetailPage({ params }: Props) {
               </Card>
             </DialogTrigger>
             <DialogContent className="max-w-full md:max-w-4xl w-full h-[90vh] overflow-y-auto p-4">
-              <div className="block md:hidden text-center">
-                <a
-                  href={`/cop29${card.pdfUrl}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
-                >
-                  <Download className="mr-2 h-4 w-4" />
-                  Télécharger
-                </a>
+              <div className="block md:hidden ">
+                <div className="flex flex-col items-center justify-center h-full">
+                  <p className="text-center mb-4">PDF viewing is not supported on this device.</p>
+                  <Button asChild>
+                    <a
+                      href={`/cop29${card.pdfUrl}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
+                    >
+                      <Download className="mr-2 h-4 w-4" />
+                      Download PDF
+                    </a>
+                  </Button>
+                </div>
               </div>
               <div className="hidden md:block w-full h-full overflow-y-auto">
                 <iframe

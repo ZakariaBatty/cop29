@@ -10,13 +10,17 @@ export default function DocumentLink({ pdfUrl }: DocumentLinkProps) {
 
   return (
 
-    <Button
-      className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
-      onClick={() => window.open(fullUrl, '_blank')}
-    >
-      <Download className="mr-2 h-4 w-4" />
-      Télécharger
-    </Button>
+    <div className="flex flex-col items-center justify-center h-full">
+      <p className="text-center mb-4">PDF viewing is not supported on this device.</p>
+      <Button
+        className="w-full bg-[#11316D] hover:bg-[#1a4494] text-white"
+        onClick={() => window.open(fullUrl, '_blank')}
+      >
+        <Download className="mr-2 h-4 w-4" />
+        Download
+      </Button>
+    </div>
+
   )
 }
 
