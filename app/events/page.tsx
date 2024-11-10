@@ -4,8 +4,19 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import documentData from '@/public/cards.json';
 import CustomImage from '@/components/CustomImageProps';
+import { useEffect, useState } from "react";
+import DocumentLink from "@/components/DocumentLink";
+
+// Utility function to detect if the user is on a mobile device
+const isMobile = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
 
 export default function MTEDDDocuments() {
+  const [isMobileDevice, setIsMobileDevice] = useState(false);
+
+  useEffect(() => {
+    setIsMobileDevice(isMobile());
+  }, []);
   return (
     <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {documentData[0]?.documents?.map((card) => (
@@ -27,13 +38,19 @@ export default function MTEDDDocuments() {
                 </div>
               </DialogTrigger>
               <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
-                <div className="w-full h-full overflow-y-auto">
-                  <iframe
-                    src={`/cop29${card.pdfUrl}`}
-                    className="w-full h-full border-none"
-                    title={card.title}
-                  />
-                </div>
+                {isMobileDevice ? (
+                  <div className="text-center mx-auto p-4">
+                    <DocumentLink pdfUrl={card.pdfUrl} />
+                  </div>
+                ) : (
+                  <div className="w-full h-full overflow-y-auto">
+                    <iframe
+                      src={`/cop29${card.pdfUrl}`}
+                      className="w-full h-full border-none"
+                      title={card.title}
+                    />
+                  </div>
+                )}
               </DialogContent>
             </Dialog>
           </CardContent>

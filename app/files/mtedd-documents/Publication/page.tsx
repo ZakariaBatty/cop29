@@ -5,6 +5,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import organizationsData from "@/public/organizations.json";
 import CustomImage from "@/components/CustomImageProps";
+import DocumentLink from "@/components/DocumentLink";
 
 interface Document {
   id: number;
@@ -65,14 +66,9 @@ const PublicationComponent: React.FC = () => {
                 </DialogTrigger>
                 <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
                   {isMobileDevice ? (
-                    <a
-                      href={`/cop29${card.pdfUrl}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-500 underline"
-                    >
-                      Open PDF in a new tab
-                    </a>
+                    <div className="text-center mx-auto p-4">
+                      <DocumentLink pdfUrl={card.pdfUrl} />
+                    </div>
                   ) : (
                     <iframe
                       src={`/cop29${card.pdfUrl}`}

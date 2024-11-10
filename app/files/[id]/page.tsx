@@ -2,6 +2,7 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import documentsData from '@/public/documents.json';
 import CustomImage from '@/components/CustomImageProps';
+import DocumentLink from '@/components/DocumentLink';
 
 interface Props {
   params: { id: string };
@@ -55,7 +56,10 @@ export default function FilesDetailPage({ params }: Props) {
                   </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-full md:max-w-4xl w-full h-[90vh] overflow-y-auto p-4">
-                  <div className="w-full h-full overflow-y-auto">
+                  <div className="block md:hidden text-center">
+                    <DocumentLink pdfUrl={card.pdfUrl} />
+                  </div>
+                  <div className="hidden md:block w-full h-full overflow-y-auto">
                     <iframe
                       src={`/cop29${card.pdfUrl}`}
                       className="w-full h-full border-none"
