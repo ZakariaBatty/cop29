@@ -68,25 +68,29 @@ export default function SocialMediaPage() {
           </CardContent>
         </Card>
 
-        {/* <Card>
+        <Card>
           <CardHeader>
-            <CardTitle className="text-center bg-pink-600 text-white py-2">
-              <a href="https://www.instagram.com/mtedd.ma/" target="_blank" rel="noopener noreferrer">
-                Instagram
+            <CardTitle className="text-center bg-blue-400 text-white py-2">
+              <a
+                href="https://www.linkedin.com/company/ministry-of-energy-transition-and-sustainable-development-kingdom-of-morocco/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Linkedin
               </a>
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <iframe
-              src="https://www.instagram.com/p/CzTU1beIEOy/embed/"
-              width="100%"
-              height="500"
-              frameBorder="0"
-              scrolling="no"
-              allowTransparency={true}
-            ></iframe>
+            <a
+              href="https://www.linkedin.com/company/ministry-of-energy-transition-and-sustainable-development-kingdom-of-morocco/?viewAsMember=true"
+              data-height="500"
+              className="twitter-timeline"
+            >
+              Visit our LinkedIn page
+            </a>
+            <script async src="https://platform.linkedin.com/in.js"></script>
           </CardContent>
-        </Card> */}
+        </Card>
       </div>
     </div>
   )
