@@ -26,7 +26,7 @@ export default function VideoDetailPage({ params }: Props) {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6 text-center">{org.name} Videos</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">{org.name}</h1>
       <div className={`grid grid-cols-1 ${gridCols} gap-4 justify-center`}>
         {org.videos.map((videoUrl, index) => (
           <Card key={index} className="p-4">

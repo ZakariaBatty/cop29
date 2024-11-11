@@ -1,7 +1,7 @@
 [
    {
       "id": 1,
-      "name": "MTEDD",
+      "name": "Ministry of Energy Transition and Sustainable Development",
       "logo": "/images/logos/mtedd1.png",
       "videos": [
          "https://www.youtube.com/embed/REz58Cd561c?si=O8SZK9kv_GyUfMg3",
@@ -14,7 +14,7 @@
    },
    {
       "id": 2,
-      "name": "AMEE",
+      "name": "Moroccan Agency for Energy Efficiency",
       "logo": "/images/logos/amee.png",
       "videos": [
          "https://www.youtube.com/embed/J0yE5Ngqxfg?si=AqSwqIgHnzdBtjvH"
@@ -22,7 +22,7 @@
    },
    {
       "id": 3,
-      "name": "CDG",
+      "name": "Caisse de Dépôt et de Gestion",
       "logo": "/images/logos/cdg.png",
       "videos": [
          "https://www.youtube.com/embed/2iZ0NOwYz2Y?si=jRmy2cfu9dukkbRA"
@@ -30,7 +30,7 @@
    },
    {
       "id": 4,
-      "name": "MASEN",
+      "name": "Moroccan Agency for Sustainbale Energy",
       "logo": "/images/logos/masen.png",
       "videos": [
          "https://www.youtube.com/embed/6HySruXvvcA?si=0jWcFmBdnU9cT29u",
@@ -39,7 +39,7 @@
    },
    {
       "id": 5,
-      "name": "ADA",
+      "name": "AGRICULTURE DEVELOPMENT AGENCY",
       "logo": "/images/logos/ada.png",
       "videos": [
          "https://www.youtube.com/embed/VGRNAmik6V0?si=vOLh7tfiVUhLtET3",
@@ -52,7 +52,7 @@
    },
    {
       "id": 6,
-      "name": "OCP",
+      "name": "Office Chérifien des Phosphates-OCP",
       "logo": "/images/logos/ocp.png",
       "videos": [
          "https://www.youtube.com/embed/qkG0wCSBUwg?si=z3bmtrsuAzd_-gvz"
@@ -60,11 +60,23 @@
    },
    {
       "id": 7,
-      "name": "EAU",
+      "name": "MINISTRY OF EQUIPMENT AND WATER",
       "logo": "/images/logos/eau.png",
       "videos": [
          "https://www.youtube.com/embed/ojHKoe-1YpE?si=004YU6ARuPK00x1m",
          "https://www.youtube.com/embed/g-iytGL83bk?si=0-t9pyHl5ucPYLZj"
+      ]
+   },
+   {
+      "id": 8,
+      "name": "Ministry of Interior",
+      "logo": "/images/logos/Logo-VF.png",
+      "videos": [
+         "https://www.youtube.com/embed/xyHjsQppY30?si=DqJpzy8x6hu2E33g",
+         "https://www.youtube.com/embed/-2xTfl7O2Uo?si=hcP-bWVTczji-TH7",
+         "https://www.youtube.com/embed/OjY8QcRFIrk?si=308ekdwwkBpfhIDc",
+         "https://www.youtube.com/embed/QEsLQG_I1b0?si=FFbaGQV5bbg2DuyE",
+         "https://www.youtube.com/embed/7p4JIQCgVQw?si=Z5b8dIWvXGLeW3E2"
       ]
    }
 ]
