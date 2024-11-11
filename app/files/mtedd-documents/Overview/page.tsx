@@ -50,7 +50,7 @@ const Overview: React.FC = () => {
           <Dialog key={card.id}>
             <DialogTrigger asChild>
               <Card className="group cursor-pointer transition-colors flex flex-col items-center justify-between rounded-lg shadow-lg p-4">
-                <CardContent className="flex flex-col items-center justify-center p-4">
+                <CardContent className="flex flex-col items-center justify-center ">
                   <div className="p-0 cursor-pointer flex flex-col items-center justify-center">
                     <CustomImage
                       src={card.icon || ""}
@@ -68,7 +68,7 @@ const Overview: React.FC = () => {
                 </CardFooter>
               </Card>
             </DialogTrigger>
-            <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
+            <DialogContent className="w-full h-full max-w-none md:max-w-none p-7">
               {isMobileDevice ? (
                 <DocumentLink pdfUrl={card.pdfUrl} />
               ) : (

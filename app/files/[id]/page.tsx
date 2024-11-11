@@ -42,7 +42,7 @@ export default function FilesDetailPage({ params }: Props) {
           <Dialog key={card.id}>
             <DialogTrigger asChild>
               <Card className="group cursor-pointer transition-colors flex flex-col items-center justify-between p-4 rounded-lg shadow-lg">
-                <CardContent className="flex flex-col items-center justify-center p-4">
+                <CardContent className="flex flex-col items-center justify-center ">
                   <div className="p-4 cursor-pointer flex flex-col items-center justify-center">
                     <CustomImage
                       src={card.icon}
@@ -60,7 +60,7 @@ export default function FilesDetailPage({ params }: Props) {
                 </CardFooter>
               </Card>
             </DialogTrigger>
-            <DialogContent className="max-w-full md:max-w-4xl w-full h-[90vh] overflow-y-auto p-4">
+            <DialogContent className="w-full h-full max-w-none md:max-w-none p-7">
               <div className="block md:hidden ">
                 <div className="flex flex-col items-center justify-center h-full">
                   <p className="text-center mb-4">PDF viewing is not supported on this device.</p>

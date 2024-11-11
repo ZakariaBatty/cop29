@@ -1,9 +1,8 @@
 "use client";
 
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import documentData from '@/public/cards.json';
-import CustomImage from '@/components/CustomImageProps';
 import { useEffect, useState } from "react";
 import DocumentLink from "@/components/DocumentLink";
 
@@ -18,30 +17,19 @@ export default function MTEDDDocuments() {
   }, []);
 
   return (
-    <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-[50%]">
+    <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-[60%]">
       {documentData[0]?.documents?.map((card) => (
         <Dialog key={card.id}>
           <DialogTrigger asChild>
-            <Card className="group cursor-pointer transition-colors shadow-lg rounded-lg p-4 flex flex-col items-center justify-between">
-              <CardContent className="flex flex-col items-center justify-center">
-                <div className="flex flex-col items-center">
-                  <CustomImage
-                    src={card.image}
-                    alt={card.title}
-                    width={200}
-                    height={200}
-                    className="rounded-md mx-auto"
-                  />
-                </div>
-              </CardContent>
-              <CardFooter>
-                <h2 className="text-lg font-semibold text-center mt-4">
+            <Card className="group  cursor-pointer transition-colors shadow-lg rounded-lg p-4 flex flex-col items-center justify-between bg-[#56b2e1] hover:bg-[#aed5e8]">
+              <CardContent className="p-6 h-72 flex flex-col items-center justify-center text-white">
+                <h2 className="text-2xl font-semibold text-center mt-4">
                   {card.title}
                 </h2>
-              </CardFooter>
+              </CardContent>
             </Card>
           </DialogTrigger>
-          <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
+          <DialogContent className="w-full h-full max-w-none md:max-w-none p-7">
             {isMobileDevice ? (
               <DocumentLink pdfUrl={card.pdfUrl} />
             ) : (

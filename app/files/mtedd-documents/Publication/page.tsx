@@ -68,7 +68,7 @@ const PublicationComponent: React.FC = () => {
                 </CardFooter>
               </Card>
             </DialogTrigger>
-            <DialogContent className="max-w-full md:max-w-4xl w-full h-[85vh] p-4 overflow-y-auto">
+            <DialogContent className="w-full h-full max-w-none md:max-w-none p-7">
               {isMobileDevice ? (
                 <DocumentLink pdfUrl={card.pdfUrl} />
               ) : (

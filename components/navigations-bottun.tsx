@@ -10,12 +10,11 @@ export default function NavigationButtons() {
   const router = useRouter()
 
   if (pathname === '/cop29' || pathname === '/') {
-    return null
     return (
       <>
         <footer className="w-full mx-auto">
           <div className="flex flex-col py-4 justify-center items-center ">
-            <Image src="//images/Sponsor-all-2.png" alt="MTEDD Logo" className="" width={750}
+            <Image src="/images/footer.jpg" alt="MTEDD Logo" className="" width={750}
               height={400} />
           </div>
         </footer>
