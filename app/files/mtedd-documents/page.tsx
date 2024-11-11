@@ -22,7 +22,7 @@ export default function MTEDDDocuments() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-8 text-center">MTEDD</h1>
+      <h1 className="text-2xl font-bold mb-8 text-center">{mteddData.name}</h1>
 
       {/* Document Categories Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto md:w-[60%]">

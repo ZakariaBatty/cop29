@@ -1,55 +1,61 @@
 {
    "MTEDD": {
       "id": 1,
-      "name": "MTEDD",
+      "name": "Ministry of Energy Transition and Sustainable Development",
       "logo": "/images/logos/mtedd1.png",
       "documents": [
          {
             "id": 1,
-            "title": "Overview of our strategies",
+            "title": "Our Strategies in Brief",
             "logo": "/images/logos/Icon5.jpg",
             "documents": [
                {
                   "id": 1,
-                  "title": "SNDD",
+                  "title": "National Sustainable Development Strategy",
                   "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/IconLED-SNDD-1.jpg",
                   "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/LED-SNDD.pdf"
                },
                {
                   "id": 2,
-                  "title": "LED Strategy",
+                  "title": "Low Emissions Development Strategy",
                   "icon": "/images/Icon/MTEDD//Overview-of-our-strategies/iconLED-Low.jpg",
                   "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/LED-Low Emission.pdf"
                },
                {
                   "id": 3,
-                  "title": "Enabling Environment",
-                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconEnablingenvironment.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Enabling environment - Green BD.pdf"
-               },
-               {
-                  "id": 4,
-                  "title": "Cooperation wtith Africa",
-                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconCooperationAfrique.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Cooperation Afrique-COP29 BD.pdf"
-               },
-               {
-                  "id": 5,
-                  "title": "Circular Economy",
-                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconDEPLCIRCULARECONOMY.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/DEPL CIRCULAR ECONOMY 2024 BD.pdf"
-               },
-               {
-                  "id": 6,
                   "title": "Towards a Sustainable Ennergy Transition",
                   "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconTOWARDS.jpg",
                   "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/TOWARDS A Sustainable energy BD.pdf"
                },
                {
-                  "id": 7,
+                  "id": 4,
+                  "title": "Enabling Environment and Investment Opportunities",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconEnablingenvironment.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Enabling environment - Green BD.pdf"
+               },
+               {
+                  "id": 5,
+                  "title": "Transition to Circular Economy",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconDEPLCIRCULARECONOMY.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/DEPL CIRCULAR ECONOMY 2024 BD.pdf"
+               },
+               {
+                  "id": 6,
                   "title": "Green Hydrogen Moroccan Offer",
                   "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconGreenHydrogen.jpg",
                   "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Green Hydrogen Moroccan Offer.pdf"
+               },
+               {
+                  "id": 7,
+                  "title": "Cooperation wtith Africa",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconCooperationAfrique.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Cooperation Afrique-COP29 BD.pdf"
+               },
+               {
+                  "id": 8,
+                  "title": "QR Code",
+                  "icon": "/images/Icon/MTEDD/Overview-of-our-strategies/iconCodeQR.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Overview-of-our-strategies/Qr-code.pdf"
                }
             ]
          },
@@ -60,57 +66,51 @@
             "documents": [
                {
                   "id": 1,
-                  "title": "Rapport Etat Environnement",
-                  "icon": "/images/Icon/MTEDD/Publication/iconRapport Etat Envirenemet V Fr-1.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Publication/Rapport Etat Envirenemet V Fr.pdf"
-               },
-               {
-                  "id": 2,
-                  "title": "NDC",
+                  "title": "Nationally Determined Contribution",
                   "icon": "/images/Icon/MTEDD/Publication/iconNDC.jpg",
                   "pdfUrl": "/Documents/MTEDD/Publication/NDC Ang.pdf"
                },
                {
-                  "id": 3,
-                  "title": "4ème CNCC",
-                  "icon": "/images/Icon/MTEDD/Publication/iconQuatrCommunication_Nationale_MOR_FR-1.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Publication/Quatrie╠Çme_Communication_Nationale_MOR_FR.pdf"
+                  "id": 2,
+                  "title": "Low Emissions Development Strategy",
+                  "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/SBC_2050.pdf"
                },
                {
-                  "id": 4,
-                  "title": "BUR3",
+                  "id": 3,
+                  "title": "3rd Biennal Updated Report",
                   "icon": "/images/Icon/MTEDD/Publication/iconMorocco BUR3 Fr-1.jpg",
                   "pdfUrl": "/Documents/MTEDD/Publication/Morocco BUR3 Fr.pdf"
                },
                {
+                  "id": 4,
+                  "title": "4th National Communication ",
+                  "icon": "/images/Icon/MTEDD/Publication/iconQuatrCommunication_Nationale_MOR_FR-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Quatrie╠Çme_Communication_Nationale_MOR_FR.pdf"
+               },
+               {
                   "id": 5,
-                  "title": "SNDD",
+                  "title": "National Sustainable Development Strategy",
                   "icon": "/images/Icon/MTEDD/Publication/iconSNDD-1.jpg",
                   "pdfUrl": "/Documents/MTEDD/Publication/SNDD.pdf"
                },
                {
                   "id": 6,
-                  "title": "Mise en œuvre SNDD",
-                  "icon": "/images/Icon/MTEDD/Publication/iconLamiseSNDD-1.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Publication/La mise SNDD.pdf"
+                  "title": "Administration Exemplarity Pact",
+                  "icon": "/images/Icon/MTEDD/Publication/iconPacte.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Pacte_de_lExemplarite╠ü_de_lAdministration_Version_Franc╠ºaise.pdf"
                },
                {
                   "id": 7,
-                  "title": "Stratégie Bas Carbone",
-                  "icon": "/images/Icon/MTEDD/Publication/iconSBC_2050-1.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Publication/SBC_2050.pdf"
+                  "title": "4th State of the Environment Report",
+                  "icon": "/images/Icon/MTEDD/Publication/iconRapport Etat Envirenemet V Fr-1.jpg",
+                  "pdfUrl": "/Documents/MTEDD/Publication/Rapport Etat Envirenemet V Fr.pdf"
                },
                {
                   "id": 8,
-                  "title": "Rapport Hygiène plages 2023",
+                  "title": "Beach Survey Report",
                   "icon": "/images/Icon/MTEDD/Publication/iconRapport Plages 2023_FR-1.jpg",
                   "pdfUrl": "/Documents/MTEDD/Publication/Rapport Plages 2023_FR.pdf"
-               },
-               {
-                  "id": 9,
-                  "title": "Pacte de l’Exemplarité de l’Administration",
-                  "icon": "/images/Icon/MTEDD/Publication/iconPacte.jpg",
-                  "pdfUrl": "/Documents/MTEDD/Publication/Pacte_de_lExemplarite╠ü_de_lAdministration_Version_Franc╠ºaise.pdf"
                }
             ]
          }
