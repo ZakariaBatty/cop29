@@ -23,21 +23,21 @@ export default function DocumentViewer() {
       <h1 className="text-3xl font-bold mb-8 text-center">Documents</h1>
 
       {/* Organizations Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mx-auto">
+      <div className="p-4 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
         {Object.values(organizationsData as OrganizationsData).map((org: Organization) => (
           <Card
             key={org.id}
-            className="group cursor-pointer transition-colors hover:bg-[#a4cce0]"
+            className="group cursor-pointer transition-colors overflow-hidden hover:bg-[#a4cce0] p-4"
             onClick={() => handleOrgClick(org)}
           >
             <CardContent className="p-4 flex flex-col items-center justify-center">
-              <div className="relative">
+              <div className="relative w-full h-full flex items-center justify-center">
                 <CustomImage
                   src={org.logo}
                   alt={org.name}
                   fill
                   className="object-contain"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="(max-width: 900px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <CustomImage
                   src="/images/JAMILA1.png"

@@ -17,9 +17,9 @@ export default function NavigationButtons() {
             <CustomImage
               src="/images/footer.jpg"
               alt="Logo"
-              width={750}
+              width={900}
               height={400}
-              className="mx-auto"
+              className="mx-auto w-full"
             />
           </div>
         </footer>
