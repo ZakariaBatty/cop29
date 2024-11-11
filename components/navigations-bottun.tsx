@@ -3,7 +3,7 @@
 import { usePathname, useRouter } from 'next/navigation'
 import { ArrowLeft, Home } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+import CustomImage from './CustomImageProps'
 
 export default function NavigationButtons() {
   const pathname = usePathname()
@@ -14,8 +14,13 @@ export default function NavigationButtons() {
       <>
         <footer className="w-full mx-auto">
           <div className="flex flex-col py-4 justify-center items-center ">
-            <Image src="/images/footer.jpg" alt="MTEDD Logo" className="" width={750}
-              height={400} />
+            <CustomImage
+              src="/images/footer.jpg"
+              alt="Logo"
+              width={750}
+              height={400}
+              className="mx-auto"
+            />
           </div>
         </footer>
       </>
