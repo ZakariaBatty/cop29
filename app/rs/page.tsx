@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export default function SocialMediaPage() {
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-bold text-center">CITIZENS RESPONSES</h1>
+      <h1 className="text-3xl font-bold text-center">News</h1>
 
       <Card>
         <CardHeader>
