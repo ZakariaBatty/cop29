@@ -5,6 +5,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import documentData from '@/public/cards.json';
 import { useEffect, useState } from "react";
 import DocumentLink from "@/components/DocumentLink";
+import ComponentQrCode from "@/components/qr-code";
 
 // Utility function to detect if the user is on a mobile device
 const isMobile = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -47,6 +48,7 @@ export default function MTEDDDocuments() {
           </Dialog>
         ))}
       </div>
+      <ComponentQrCode />
     </div>
   );
 }
