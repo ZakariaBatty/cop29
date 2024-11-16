@@ -13,7 +13,7 @@ export default function ComponentQrCode() {
             <CardContent className="flex flex-col items-center justify-center">
               <div className="p-4 cursor-pointer flex flex-col items-center justify-center">
                 <CustomImage
-                  src="/cop29/images/Icon/Side-events/qr-code.jpg"
+                  src="/images/Icon/Side-events/qr-code.jpg"
                   alt="qr-code"
                   width={200}
                   height={200}
@@ -31,7 +31,7 @@ export default function ComponentQrCode() {
         <DialogContent className="w-full max-w-2xl p-0">
           <div className="flex items-center justify-center w-full h-full p-4">
             <CustomImage
-              src="/cop29/images/Icon/Side-events/qr-code.jpg"
+              src="/images/Icon/Side-events/qr-code.jpg"
               alt="Programme global COP29 QR Code"
               width={500}
               height={500}
